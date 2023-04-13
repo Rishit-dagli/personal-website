@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Soon joining Civo, a startup as a ML research scientist.
+Soon joining Civo, a startup as one of the first ML research scientists.

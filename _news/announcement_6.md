@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Google AI Grant holder for 2023
+Recipient of the Google AI Research Grant for 2023.
