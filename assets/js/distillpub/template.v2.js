@@ -837,7 +837,7 @@ ${math}
         citations.add(key);
       }
     }
-    return [...citations];
+    return [];
   }
 
   function author_string(ent, template, sep, finalSep) {
