@@ -5,10 +5,10 @@ on:
     branches:
       - master
       - main
-  pull_request:
-    branches:
-      - master
-      - main
+  # pull_request:
+  #   branches:
+  #     - master
+  #     - main
   workflow_dispatch:
 
 permissions:
@@ -34,4 +34,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
+    - name: Deploy to UofT Server
+      run: sshpass -p "${{ secrets.UOFT_PASSWORD }}" rsync -aP _site/ rishit@cs.toronto.edu:~/public_html/
 
