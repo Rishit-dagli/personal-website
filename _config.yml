@@ -10,7 +10,7 @@ email: rishit@cs.toronto.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Rishit Dagli's website.
 footer_text: 
-keywords: rishit, researcher, machine-learning, vision, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: rishit, researcher, machine learning, vision, academic-website, portfolio-website, rishit dagli, deep learning  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🚀  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -72,7 +72,7 @@ github_username: Rishit-dagli# your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: rishit_dagli# your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: # your LinkedIn user name
+linkedin_username: /in/rishit-dagli # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: WXCUkDAAAAAJ
 semanticscholar_id: # your Semantic Scholar ID
