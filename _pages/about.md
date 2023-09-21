@@ -8,8 +8,7 @@ profile:
   align: right
   image: rishit.png
   image_circular: false # crops the image to make it circular
-  address: rishit [at] cs [dot] toronto [dot] edu
-
+  address: <p>BA7252, <a href="https://maps.app.goo.gl/1Cp9jcxFvB6M7yhN7">Bahen</a></p><p>rishit [at] cs [dot] toronto [dot] edu</p>
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
