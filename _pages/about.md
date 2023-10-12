@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I also maintain [rishit.tech](https://www.rishit.tech) and this is a smaller version of it, and write a [blog](https://rishit-dagli.github.io/).
+I also maintain [rishit.tech](https://www.rishit.tech) and write a [blog](https://rishit-dagli.github.io/).
 
 I am a CS Freshman at [The University of Toronto](https://web.cs.toronto.edu/). I love researching and working with Machine Learning, especially Computer Vision. Coming from the software and robotics background, I contribute extensively to/ maintain popular open-source projects like [TensorFlow](https://www.tensorflow.org/), [PyTorch Foundation](https://pytorch.org/), [Kubernetes](https://kubernetes.io/), [Kubeflow](https://www.kubeflow.org/), [PapersWithCode](https://paperswithcode.com/), [freeCodeCamp](https://www.freecodecamp.org/) among others. I also love building open-source projects (usually related to Kubernetes and Machine Learning), some of which have been pretty popular which could be found on my GitHub. Seeing my work at a rather young age, I was invited to speak at 2 TEDx and 1 TED-Ed events. Furthermore, I have also represented my country in international olympiads. Feel free to talk with me about anything CS, Math, Robotics, or Physics.
 
