@@ -210,6 +210,9 @@ plugins:
   - jemoji
   - jekyll-redirect-from
 
+emoji:
+    src: "/assets/img"
+
 # Sitemap settings
 defaults:
   - scope:
