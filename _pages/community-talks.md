@@ -1,6 +1,6 @@
 ---
-layout: default
-permalink: /community-talks
+layout: page
+permalink: /community-talks/
 title: community talks
 nav: true
 nav_order: 3
