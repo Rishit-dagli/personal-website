@@ -6,8 +6,6 @@ nav: true
 nav_order: 3
 ---
 
-## community talks
-
 I take the idea of learning and sharing very seriously and hence the existence of this page. In my past life, I used to do a lot of software development: I loved to attend developer meetups, conferences, and workshops. I have given a few community talks which are listed here
 
 | About | Conference |
