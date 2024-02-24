@@ -2,21 +2,18 @@
 layout: default
 permalink: /community-talks
 title: community talks
-nav: false
+nav: true
 nav_order: 3
 ---
 
 ## community talks
 
-I take the idea of learning and sharing very seriously and hence the existence of this page. In a past life, I used to do a lot of software development: I loved to attend developer meetups, conferences, workshops. I had given a few community talks which are listed here.
+I take the idea of learning and sharing very seriously and hence the existence of this page. In my past life, I used to do a lot of software development: I loved to attend developer meetups, conferences, and workshops. I have given a few community talks which are listed here
 
 | About | Conference |
 | ------ | ----------- |
 | [Orchestrating Machine Learning on Edge Devices](https://youtu.be/B3p9R71AgyY) | [PyTorch Conference](https://events.linuxfoundation.org/pytorch-conference/) |
 | [Building Highly Scalable Edge Computing with Project Akri & WebAssembly](https://youtu.be/qt_HLvpSyzs) | [Embedded Open Source Summit](https://events.linuxfoundation.org/embedded-open-source-summit/) |
-
-| About | Conference |
-| ------ | ----------- |
 | [GitOps for Machine Learning Pipelines](https://youtu.be/CwZnOTZD5UE) | [CdCon + GitOpsCon](https://events.linuxfoundation.org/cdcon-gitopscon/), 9 May 2023 |
 | [Making the Most out of your Hardware Accelerators in a Kubernetes Cluster](https://youtu.be/9g0ZlX0y3jw) | [KubeCon + CloudNative Con Europe](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/), 19 April 2023 |[^1^][1]
 | [The new Kubeflow Distribution in Town: Civo](https://youtu.be/8f2fem7nRiE) | [Civo Navigate](https://navigate.civo.com/), 8 February 2023 |
