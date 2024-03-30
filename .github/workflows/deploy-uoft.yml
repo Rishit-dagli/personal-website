@@ -44,4 +44,16 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
-        branch: gh-pages
+        branch: uoftserver
+
+    - name: Update values.yaml
+      uses: fjogeleit/yaml-update-action@v0.14.0
+      with:
+        valueFile: '_config.yaml'
+        propertyPath: 'baseurl'
+        value: /~rishit/
+        commitChange: false
+
+    - name: Deploy to UofT Server
+      run: sshpass -p "${{ secrets.UOFT_PASSWORD }}" rsync -e "ssh -o StrictHostKeyChecking=no" -aP _site/ rishit@cs.toronto.edu:~/public_html/
+
