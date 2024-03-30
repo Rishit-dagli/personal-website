@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.cs.toronto.edu/~rishit//sitemap.xml
+Sitemap: https://www.cs.toronto.edu//sitemap.xml
