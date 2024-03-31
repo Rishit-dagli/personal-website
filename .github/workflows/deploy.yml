@@ -27,6 +27,14 @@ jobs:
         ruby-version: '3.2.1'
         bundler-cache: true
 
+    - name: Update values.yml
+      uses: fjogeleit/yaml-update-action@v0.14.0
+      with:
+        valueFile: '_config.yml'
+        propertyPath: 'work_url'
+        value: https://www.cs.toronto.edu/~rishit/
+        commitChange: false
+
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli

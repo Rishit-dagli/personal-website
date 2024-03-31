@@ -27,22 +27,18 @@ jobs:
         ruby-version: '3.2.1'
         bundler-cache: true
 
-    # LS at this time
-    - name: Run LS
-      run: ls -lh
-
     - name: Update values.yaml
       uses: fjogeleit/yaml-update-action@v0.14.0
       with:
-        valueFile: '_config.yaml'
+        valueFile: '_config.yml'
         propertyPath: 'baseurl'
         value: /~rishit/
         commitChange: false
 
-    - name: Update values.yaml
+    - name: Update values.yml
       uses: fjogeleit/yaml-update-action@v0.14.0
       with:
-        valueFile: '_config.yaml'
+        valueFile: '_config.yml'
         propertyPath: 'work_url'
         value: https://rishitdagli.com/
         commitChange: false
