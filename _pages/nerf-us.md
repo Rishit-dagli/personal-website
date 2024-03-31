@@ -77,9 +77,9 @@ nav_order: -1
       </div>
     </div>
   </div>
-  <h2 class="subtitle has-text-centered">
+  <h5 class="subtitle has-text-centered">
     Novel view ultrasound renders from <span class="dnerf">NeRF-US</span>
-  </h2>
+  </h5>
 </section>
 
 <div class="columns is-centered has-text-centered">
@@ -187,9 +187,9 @@ Here we show some instances of our new ultrasound in-the-wild dataset, we limit 
       </div>
     </div>
   </div>
-  <h2 class="subtitle has-text-centered">
+  <h5 class="subtitle has-text-centered">
     Examples from our ultrasound in-the-wild dataset. 
-  </h2>
+  </h5>
 </section>
 
 ## Citation
