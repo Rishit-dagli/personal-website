@@ -78,7 +78,7 @@ nav_order: -1
     </div>
   </div>
   <h5 class="subtitle has-text-centered">
-    Novel view ultrasound renders from <span class="dnerf">NeRF-US</span>
+    Novel view ultrasound renders from <span class="dnerf">NeRF-US</span>.
   </h5>
 </section>
 
