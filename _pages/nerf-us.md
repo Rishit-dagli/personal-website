@@ -81,6 +81,7 @@ nav_order: -1
     Novel view ultrasound renders from <span class="dnerf">NeRF-US</span>.
   </h5>
 </section>
+<br></br>
 
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
