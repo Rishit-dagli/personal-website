@@ -88,7 +88,7 @@ Comparisions with baselines on depthmaps generated from the models.
 
 ## Ultrasound in-the-wild dataset
 
-Here we show some instances of our new ultrasound in-the-wild dataset, we limit the visualizations of the dataset here to 10 seconds of our dataset.
+Here we show some instances of our new ultrasound in-the-wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset.
 
 <section class="hero is-light is-small">
   <div class="hero-body">
