@@ -83,7 +83,6 @@ nav_order: -1
 </section>
 <br/>
 
-
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
@@ -138,7 +137,38 @@ Comparisions with baselines on depthmaps generated from the models.
 
 ## Ultrasound in-the-wild Dataset
 
-Here we show some instances of our new ultrasound in-the-wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset.
+Here we show some instances of our new ultrasound in-the-wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset. For visualization, we pre-process these videos with a script.
+
+<div>
+    <button class="dropdown-button" onclick="toggleDropdown()">Show pre-processing script</button>
+    <div class="code-block" id="bashCode">
+        <pre><code class="language-bash">
+        #!/bin/bash
+
+        TARGET_BITRATE="1700k"
+
+        for i in {0..6}
+        do
+          inputFile="converted_${i}.mp4"
+          outputFile="temp_${inputFile}"
+
+          echo "Processing $inputFile..."
+
+          ffmpeg -i "$inputFile" -vcodec h264 -acodec aac -b:v $TARGET_BITRATE -strict -2 "$outputFile"
+
+          if [ $? -eq 0 ]; then
+            mv "$outputFile" "$inputFile"
+            echo "$inputFile has been successfully converted to a browser-compatible format and overwritten."
+          else
+            echo "An error occurred while converting $inputFile."
+          fi
+        done
+
+        echo "All files have been processed."
+        </code></pre>
+        <button onclick="copyToClipboard()">Copy</button>
+    </div>
+</div>
 
 <section class="hero is-light is-small">
   <div class="hero-body">
