@@ -34,6 +34,54 @@ nav_order: -1
   </div>
 </section>
 
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/img/nerf-us/results/converted_0.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-chair-tp">
+          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/img/nerf-us/results/converted_1.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/img/nerf-us/results/converted_2.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/img/nerf-us/results/converted_3.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-blueshirt">
+          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/img/nerf-us/results/converted_4.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-mask">
+          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
+            <source src="../assets/img/nerf-us/results/converted_5.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="subtitle has-text-centered">
+    Novel view ultrasound renders from <span class="dnerf">NeRF-US</span>
+  </h2>
+</section>
+
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
@@ -86,7 +134,7 @@ Comparisions with baselines on depthmaps generated from the models.
 
 <img src="../assets/img/nerf-us/resultsdepth.png" alt="Depth comparisions" style="max-width: 90%; margin: 0 auto;">
 
-## Ultrasound in-the-wild dataset
+## Ultrasound in-the-wild Dataset
 
 Here we show some instances of our new ultrasound in-the-wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset.
 
@@ -139,6 +187,9 @@ Here we show some instances of our new ultrasound in-the-wild dataset, we limit 
       </div>
     </div>
   </div>
+  <h2 class="subtitle has-text-centered">
+    Examples from our ultrasound in-the-wild dataset. 
+  </h2>
 </section>
 
 ## Citation
