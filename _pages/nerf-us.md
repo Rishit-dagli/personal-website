@@ -127,13 +127,201 @@ We now train our NeRF model that takes in a 3D vector (denoting positions in 3D)
 
 ## Visual Results
 
-Comparisions with baselines.
+<section class="section">
+<div class="container is-max-desktop ">
+  <div class=" has-text-centered">
+    <div class="columns is-centered">
+      <div class="column">
+        <div class="content">
+          <div class="columns is-centered">
+            <div class="column is-full-width">
+              <div id="example1" class="bal-container-small">
 
-<img src="../assets/img/nerf-us/results.png" alt="Result comparisions" style="max-width: 90%; margin: 0 auto;">
+                <div class="bal-after">
+                  <img src="../assets/img/nerf-us/results/interactive/ours_0.jpg">
+                  <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                    Ours
+                  </div>
+                </div>
 
-Comparisions with baselines on depthmaps generated from the models.
+                <div class="bal-before" style="width:96.4968152866242%;">
+                  <div class="bal-before-inset" style="width: 512px;">
+                    <img src="../assets/img/nerf-us/results/interactive/nfacto_0.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                      Nerfacto [Tancik 2023]
+                    </div>
+                  </div>
+                </div>
 
-<img src="../assets/img/nerf-us/resultsdepth.png" alt="Depth comparisions" style="max-width: 90%; margin: 0 auto;">
+                <div class="bal-handle" style="left:96.4968152866242%;">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+
+              </div>
+
+
+              <div id="example2" class="bal-container-small">
+
+                <div class="bal-after">
+                  <img src="../assets/img/nerf-us/results/interactive/ours_1.jpg">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
+                  </div>
+                </div>
+
+                <div class="bal-before" style="width: 50%;">
+                  <div class="bal-before-inset" style="width: 512px;">
+                    <img src="../assets/img/nerf-us/results/interactive/nfacto_1.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                      Nerfacto [Tancik 2023]
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bal-handle" style="left: 50%;">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              </div>
+              <div id="example3" class="bal-container-small">
+
+                <div class="bal-after">
+                  <img src="../assets/img/nerf-us/results/interactive/ours_2.jpg">
+                  <div class="bal-afterPosition afterLabel">
+                    Ours
+                  </div>
+                </div>
+
+                <div class="bal-before" style="width: 50%;">
+                  <div class="bal-before-inset" style="width: 512px;">
+                    <img src="../assets/img/nerf-us/results/interactive/nfacto_2.jpg">
+                    <div class="bal-beforePosition beforeLabel">
+                      Nerfacto [Tancik 2023]
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bal-handle" style="left: 50%;">
+                  <span class=" handle-left-arrow"></span>
+                  <span class="handle-right-arrow"></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+
+            <div id="example4" class="bal-container-small">
+              <div class="bal-after">
+                <img src="../assets/img/nerf-us/results/interactive/ours_0.jpg">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  Ours
+                </div>
+              </div>
+
+              <div class="bal-before" style="width:62.10191082802548%;">
+                <div class="bal-before-inset" style="width: 512px;">
+                  <img src="../assets/img/nerf-us/results/interactive/un_0.jpg.png">
+                  <div class="bal-beforePosition beforeLabel">
+                    Ultra-NeRF [Wysocki 2024]
+                  </div>
+                </div>
+              </div>
+
+              <div class="bal-handle" style="left:62.10191082802548%;">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+
+            </div>
+
+            <div id="example5" class="bal-container-small">
+              <div class="bal-after">
+                <img src="../assets/img/nerf-us/results/interactive/ours_1.jpg">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  Ours
+                </div>
+              </div>
+
+              <div class="bal-before" style="width:56.77179962894249%;">
+                <div class="bal-before-inset" style="width: 512px;">
+                  <img src="../assets/img/nerf-us/results/interactive/un_1.jpg">
+                  <div class="bal-beforePosition beforeLabel">
+                    Ultra-NeRF [Wysocki 2024]
+                  </div>
+                </div>
+              </div>
+
+              <div class="bal-handle" style="left:56.77179962894249%;">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+
+            </div>
+            <div id="example6" class="bal-container-small">
+              <div class="bal-after">
+                <img src="../assets/img/nerf-us/results/interactive/ours_2.jpg">
+                <div class="bal-afterPosition afterLabel" style="z-index:1;">
+                  Ours
+                </div>
+              </div>
+
+              <div class="bal-before" style="width:56.77179962894249%;">
+                <div class="bal-before-inset" style="width: 512px;">
+                  <img src="../assets/img/nerf-us/results/interactive/un_2.jpg">
+                  <div class="bal-beforePosition beforeLabel">
+                    Ultra-NeRF [Wysocki 2024]
+                  </div>
+                </div>
+              </div>
+
+              <div class="bal-handle" style="left:56.77179962894249%;">
+                <span class=" handle-left-arrow"></span>
+                <span class="handle-right-arrow"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+  <script>
+    new BeforeAfter({
+      id: '#example1'
+    });
+    new BeforeAfter({
+      id: '#example2'
+    });
+    new BeforeAfter({
+      id: '#example3'
+    });
+    new BeforeAfter({
+      id: '#example4'
+    });
+    new BeforeAfter({
+      id: '#example5'
+    });
+    new BeforeAfter({
+      id: '#example6'
+    });
+  </script>
+
+<div class="content has-text-justified">
+  <img src="../assets/img/nerf-us/results.png" style="max-width: 80%; margin: 0 auto;">
+  <p>Comparisions with baselines on our Ultrasound in-the-wild dataset.</p>
+</div>
+
+<div class="content has-text-justified">
+<img src="../assets/img/nerf-us/resultsdepth.png" alt="Depth comparisions" style="max-width: 80%; margin: 0 auto;">
+<p>Comparisions with baselines on depthmaps generated from the models.</p>
+</div>
 
 ## Ultrasound in-the-wild Dataset
 
