@@ -226,7 +226,7 @@ We now train our NeRF model that takes in a 3D vector (denoting positions in 3D)
 
               <div class="bal-before" style="width:62.10191082802548%;">
                 <div class="bal-before-inset" style="width: 512px;">
-                  <img src="../assets/img/nerf-us/results/interactive/un_0.jpg.png">
+                  <img src="../assets/img/nerf-us/results/interactive/un_0.jpg">
                   <div class="bal-beforePosition beforeLabel">
                     Ultra-NeRF [Wysocki 2024]
                   </div>
