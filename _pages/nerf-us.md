@@ -362,7 +362,7 @@ echo "All files have been processed."
       <div id="results-carousel" class="carousel results-carousel">
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="../assets/img/nerf-us/dataset/slightly_compressed_video.mp4"
+            <source src="../assets/img/nerf-us/dataset/converted_0.mp4"
                     type="video/mp4">
           </video>
         </div>
