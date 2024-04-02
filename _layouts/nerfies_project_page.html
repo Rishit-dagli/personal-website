@@ -46,7 +46,7 @@
         codeBlock.style.display = "none";
       }
     }
-    </script>
+  </script>
 </head>
 
 <body>
@@ -83,10 +83,30 @@
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
                     </span>
+                    {% if page.paper_coming %}
+                    <span>Paper (coming soon)</span>
+                    {% else %}
                     <span>Paper</span>
+                    {% endif %}
                   </a>
                 </span>
                 {% endif %}
+
+                {% if page.arxiv %}
+                <span class="link-block">
+                  <a href="{{ page.arxiv }}" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    {% if page.arxiv_coming %}
+                    <span>arXiv (coming soon)</span>
+                    {% else %}
+                    <span>arXiv</span>
+                    {% endif %}
+                  </a>
+                </span>
+                {% endif %}
+
                 <!-- Video Link. -->
                 {% if page.video %}
                 <span class="link-block">
@@ -94,7 +114,11 @@
                     <span class="icon">
                       <i class="fab fa-youtube"></i>
                     </span>
+                    {% if page.video_coming %}
+                    <span>Video (coming soon)</span>
+                    {% else %}
                     <span>Video</span>
+                    {% endif %}
                   </a>
                 </span>
                 {% endif %}
@@ -105,7 +129,11 @@
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
+                    {% if page.code_coming %}
+                    <span>Code (coming soon)</span>
+                    {% else %}
                     <span>Code</span>
+                    {% endif %}
                   </a>
                 </span>
                 {% endif %}
@@ -116,7 +144,11 @@
                     <span class="icon">
                       <i class="fas fa-database"></i>
                     </span>
+                    {% if page.data_coming %}
+                    <span>Data (coming soon)</span>
+                    {% else %}
                     <span>Data</span>
+                    {% endif %}
                   </a>
                 </span>
                 {% endif %}
