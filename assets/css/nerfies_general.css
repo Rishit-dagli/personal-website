@@ -2,15 +2,58 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+#loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  /* background-color: #fff; */
+  z-index: 99;
+}
+
+#loading-image {
+  z-index: 100;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #3498db;
+  /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
 
 .footer .icon-link {
-    font-size: 25px;
-    color: #000;
+  font-size: 25px;
+  color: #000;
 }
 
 .link-block a {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .dnerf {
@@ -19,25 +62,37 @@ body {
 }
 
 .emoji {
-  vertical-align: middle; /* Aligns the image vertically with the text */
-  height: 1em; /* Sets the width of the image to match the current font size */
-  width: auto; /* Keeps the aspect ratio of the image */
+  vertical-align: middle;
+  /* Aligns the image vertically with the text */
+  height: 1em;
+  /* Sets the width of the image to match the current font size */
+  width: auto;
+  /* Keeps the aspect ratio of the image */
 }
 
 table {
-  width: 100%; /* Makes the table take the full width of its container */
-  border-collapse: collapse; /* Removes space between table cells */
+  width: 100%;
+  /* Makes the table take the full width of its container */
+  border-collapse: collapse;
+  /* Removes space between table cells */
 }
+
 td {
-  border: 0px solid black; /* Adds a border to each cell for visibility */
+  border: 0px solid black;
+  /* Adds a border to each cell for visibility */
   align: right;
-  padding: 8px; /* Adds some padding inside the cells */
+  padding: 8px;
+  /* Adds some padding inside the cells */
 }
+
 .text-column {
-  width: 75%; /* Sets the width of the text column */
+  width: 75%;
+  /* Sets the width of the text column */
 }
+
 .image-column {
-  width: 25%; /* Sets the width of the image column */
+  width: 25%;
+  /* Sets the width of the image column */
 }
 
 /* .column {
@@ -56,9 +111,9 @@ td {
   content: "";
   clear: both;
   display: table;
-} */
+}
 
-.teaser .hero-body {
+*/ .teaser .hero-body {
   padding-top: 0;
   padding-bottom: 3rem;
 }
@@ -68,8 +123,7 @@ td {
 }
 
 
-.publication-title {
-}
+.publication-title {}
 
 .publication-banner {
   max-height: parent;
@@ -84,71 +138,67 @@ td {
   object-fit: fit;
 }
 
-.publication-header .hero-body {
-}
+.publication-header .hero-body {}
 
 .publication-title {
-    font-family: 'Google Sans', sans-serif;
+  font-family: 'Google Sans', sans-serif;
 }
 
 .publication-authors {
-    font-family: 'Google Sans', sans-serif;
+  font-family: 'Google Sans', sans-serif;
 }
 
 .publication-venue {
-    color: #555;
-    width: fit-content;
-    font-weight: bold;
+  color: #555;
+  width: fit-content;
+  font-weight: bold;
 }
 
 .publication-awards {
-    color: #ff3860;
-    width: fit-content;
-    font-weight: bolder;
+  color: #ff3860;
+  width: fit-content;
+  font-weight: bolder;
 }
 
-.publication-authors {
-}
+.publication-authors {}
 
 .publication-authors a {
-   color: hsl(204, 86%, 53%) !important;
+  color: hsl(204, 86%, 53%) !important;
 }
 
 .publication-authors a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .author-block {
   display: inline-block;
 }
 
-.publication-banner img {
-}
+.publication-banner img {}
 
 .publication-authors {
   /*color: #4286f4;*/
 }
 
 .publication-video {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
 
-    overflow: hidden;
-    border-radius: 10px !important;
+  overflow: hidden;
+  border-radius: 10px !important;
 }
 
 .publication-video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.publication-body img {
-}
+.publication-body img {}
 
 .results-carousel {
   overflow: hidden;
@@ -178,8 +228,8 @@ td {
   border-radius: 5px;
 }
 
-.interpolation-video-column {
-}
+
+.interpolation-video-column {}
 
 .interpolation-panel .slider {
   margin: 0 !important;
@@ -192,6 +242,7 @@ td {
 #interpolation-image-wrapper {
   width: 100%;
 }
+
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
