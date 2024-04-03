@@ -24,6 +24,10 @@ nav_order: -1
 
 ---
 
+<div id="loading">
+  <div class="loader"></div>
+  <!-- <img id="loading-image" src="path/to/ajax-loader.gif" alt="Loading..." /> -->
+</div>
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -323,6 +327,11 @@ We now train our NeRF model that takes in a 3D vector (denoting positions in 3D)
 <img src="../assets/img/nerf-us/resultsdepth.png" alt="Depth comparisions" style="max-width: 80%; margin: 0 auto;">
 <p>Comparisions with baselines on depthmaps generated from the models.</p>
 </div>
+<script>
+  $(window).on('load', function () {
+    $('#loading').hide();
+  })
+</script>
 
 ## Ultrasound in-the-wild Dataset
 
