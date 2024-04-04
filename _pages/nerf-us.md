@@ -111,33 +111,30 @@ if its decimal can be written down by a machine...
 
 ---
 
-## Motivation
+<h2 id="motivation">Motivation</h2>
 
-<table>
+<table style="width: 100%; border-collapse: collapse;">
   <tr>
-    <td class="text-column">There are a few challenges common when using previous medical NeRF methods and standard methods: the need for high-quality, diverse datasets, capturing intricate details like <span style="color:red">tissue interface locations</span> critical for medical diagnosis, accurately modeling transparent and reflective surfaces. There are quite a few <span style="color:red">NeRF artifacts</span> that appear when using these methods in the wild. In contrast to this, our approach (as shown) produces artifact-free reconstructions with minor details accurately reconstructed.</td>
-    <td class="image-column"><img src="../assets/img/nerf-us/param.png" alt="Showcasing boundaries." style="max-width: 65%; margin: 0 auto;"></td>
+    <td style="padding-right: 8px; text-align: left;">There are a few challenges common when using previous medical NeRF methods and standard methods: the need for high-quality, diverse datasets, capturing intricate details like <span style="color:red">tissue interface locations</span> critical for medical diagnosis, accurately modeling transparent and reflective surfaces. There are quite a few <span style="color:red">NeRF artifacts</span> that appear when using these methods in the wild. In contrast to this, our approach (as shown) produces artifact-free reconstructions with minor details accurately reconstructed.</td>
+    <td style="padding-left: 8px; text-align: right;"><img src="../assets/img/nerf-us/param.png" alt="Showcasing boundaries." style="width: auto; max-width: 90%;"></td>
   </tr>
 </table>
 
-## How does <span class="dnerf">NeRF-US</span> work?
+<h2>How does <span class="dnerf">NeRF-US</span> work?</h2>
 
 Our goal is to produce a 3D representation given a set of ultrasound images taken in the wild and their camera positions. The first step of our approach relies on the training of a <span style="color:red">3D diffusion model</span>, which can serve as geometric priors for our NeRF model. This diffusion model produces an 32 x 32 x 32 occupancy grid. To create this diffusion model, we finetune the 3D diffusion model on a small dataset of voxels around the human knee generated synthetically.
 
 <div class="content has-text-justified">
 <img src="../assets/img/nerf-us/diffusion.png" alt="How to create diffusion model?" style="max-width: 90%; margin: 0 auto;">
-<p>An overview of how our diffusion model is fine-tuned, we use 32<sup>3</sup>-sized patches to LoRA-finetune a 3D diffusion model trained on ShapeNet.</p>
+<p>Figure: An overview of how our diffusion model is fine-tuned, we use 32<sup>3</sup>-sized patches to LoRA-finetune a 3D diffusion model trained on ShapeNet.</p>
 
 We now train our NeRF model that takes in a 3D vector (denoting positions in 3D) and learns a 5D vector (attenuation, reflectance, border probabiltiy, scattering density, and scattering intensity). While training this NeRF, we run the outputs through the diffusion model and obtain <span style="color:red">guidance vectors</span> for <span style="color:red">border probability</span> and <span style="color:red">scattering density</span>. These are added to the photometric loss. We finally train the NeRF with this final loss we calculated.
 
 <div class="content has-text-justified">
 <img src="../assets/img/nerf-us/methods.png" alt="How to train our model?" style="max-width: 90%; margin: 0 auto;">
-<p>An overview of how our method works. We train a NeRF model that
-uses ultrasound rendering to convert the representations into a 2D image after
-which we infer through a 3D diffusion model which has geometry
-priors through which we calculate a modified loss definition to train the NeRF.</p>
+<p>Figure: An overview of how our method works. We train a NeRF model that uses ultrasound rendering to convert the representations into a 2D image after which we infer through a 3D diffusion model which has geometry priors through which we calculate a modified loss definition to train the NeRF.</p>
 
-## Visual Results
+<h2 id="visual-results">Visual Results</h2>
 
 <section class="section">
 <div class="container is-max-desktop ">
@@ -327,13 +324,12 @@ priors through which we calculate a modified loss definition to train the NeRF.<
 
 <div class="content has-text-justified">
   <img src="../assets/img/nerf-us/results.png" style="max-width: 80%; margin: 0 auto;">
-  <p><b>Qualitative Results.</b> We demonstrate the results of our method and compare it qualitatively with Nerfacto [1], Gaussian Splatting [3], and Ultra-NeRF [2]. Our approach, NeRF-US, produces accurate and high-quality reconstructions as compared to the baseline models on novel views (<b>best viewed with zoom</b>).</p>
+  <p>Figure: <b>Qualitative Results.</b> We demonstrate the results of our method and compare it qualitatively with Nerfacto [1], Gaussian Splatting [3], and Ultra-NeRF [2]. Our approach, NeRF-US, produces accurate and high-quality reconstructions as compared to the baseline models on novel views (<b>best viewed with zoom</b>).</p>
 </div>
 
 <div class="content has-text-justified">
 <img src="../assets/img/nerf-us/resultsdepth.png" alt="Depth comparisions" style="max-width: 80%; margin: 0 auto;">
-<p><b>Qualitative Results.</b> We demonstrate the results of depth maps produced from
-our method and compare them qualitatively with Nerfacto [1], Gaussian Splatting [3], and Ultra-NeRF [2] (<b>best viewed in color and with zoom</b>).</p>
+<p>Figure: <b>Qualitative Results.</b> We demonstrate the results of depth maps produced from our method and compare them qualitatively with Nerfacto [1], Gaussian Splatting [3], and Ultra-NeRF [2] (<b>best viewed in color and with zoom</b>).</p>
 
 </div>
 <script>
@@ -342,7 +338,7 @@ our method and compare them qualitatively with Nerfacto [1], Gaussian Splatting 
   })
 </script>
 
-## Ultrasound in the wild Dataset
+<h2 id="ultrasound-in-the-wild-dataset">Ultrasound in the wild Dataset</h2>
 
 Here we show some instances of our new ultrasound in the wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset. For visualization, we pre-process these videos with a script.
 
@@ -429,7 +425,7 @@ echo "All files have been processed."
   </h5>
 </section>
 
-## Related Links
+<h2 id="related-links">Related Links</h2>
 
 The following works were mentioned on this page:
 
@@ -439,7 +435,7 @@ The following works were mentioned on this page:
 
 [3] Kerbl, Bernhard, et al. "3d gaussian splatting for real-time radiance field rendering." ACM Transactions on Graphics 42.4 (2023): 1-14.
 
-## Citation
+<h2 id="citation">Citation</h2>
 
 ```bibtex
 @article{turing1936computable,
@@ -453,6 +449,6 @@ The following works were mentioned on this page:
 }
 ```
 
-## Acknowledgements
+<h2 id="acknowledgements">Acknowledgements</h2>
 
 This research was enabled in part by support provided by the <a href="https://alliancecan.ca/">Digital Research Alliance of Canada</a>. This research was supported in part with Cloud TPUs from <a href="https://sites.research.google/trc/about/">Google's TPU Research Cloud (TRC)</a>. The resources used to prepare this research were provided, in part, by the Province of Ontario, the Government of Canada through CIFAR, and companies sponsoring the <a href="https://vectorinstitute.ai/partnerships/current-partners/">Vector Institute</a>.
