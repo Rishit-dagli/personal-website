@@ -340,7 +340,7 @@ We now train our NeRF model that takes in a 3D vector (denoting positions in 3D)
 
 <h2 id="ultrasound-in-the-wild-dataset">Ultrasound in the wild Dataset</h2>
 
-Here we show some instances of our new ultrasound in the wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset. For visualization, we pre-process these videos with a script.
+Here we show some instances of our new ultrasound in the wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset. For visualization, we pre-process these videos with a script.<br>
 
 <div class="content">
   <button class="button is-black is-block" onclick="toggleCodeBlock()">Show pre-processing script</button>
