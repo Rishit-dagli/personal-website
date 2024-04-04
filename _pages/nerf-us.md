@@ -33,7 +33,7 @@ nav_order: -1
     <div class="hero-body">
       <img src="../assets/img/nerf-us/teaser.png" alt="NeRF-US Teaser Image" style="max-width: 100%; margin: 0 auto;">
       <h5 class="subtitle has-text-centered">
-        <span class="dnerf">NeRF-US</span> turns ultrasounds captured in-the-wild into artifact-free 3D reconstructions.
+        <span class="dnerf">NeRF-US</span> turns ultrasounds captured in the wild into artifact-free 3D reconstructions.
       </h5>
     </div>
   </div>
@@ -115,14 +115,14 @@ if its decimal can be written down by a machine...
 
 <table>
   <tr>
-    <td class="text-column">There are a few challenges common when using previous medical NeRF methods and standard methods: the need for high-quality, diverse datasets, capturing intricate details like <span style="color:red">tissue interface locations</span> critical for medical diagnosis, accurately modeling transparent and reflective surfaces. There are quite a few <span style="color:red">NeRF artifacts</span> that appear when using these methods in-the-wild. In contrast to this, our approach (as shown) produces artifact-free reconstructions with minor details accurately reconstructed.</td>
+    <td class="text-column">There are a few challenges common when using previous medical NeRF methods and standard methods: the need for high-quality, diverse datasets, capturing intricate details like <span style="color:red">tissue interface locations</span> critical for medical diagnosis, accurately modeling transparent and reflective surfaces. There are quite a few <span style="color:red">NeRF artifacts</span> that appear when using these methods in the wild. In contrast to this, our approach (as shown) produces artifact-free reconstructions with minor details accurately reconstructed.</td>
     <td class="image-column"><img src="../assets/img/nerf-us/param.png" alt="Showcasing boundaries." style="max-width: 55%; margin: 0 auto;"></td>
   </tr>
 </table>
 
 ## How does <span class="dnerf">NeRF-US</span> work?
 
-Our goal is to produce a 3D representation given a set of ultrasound images taken in-the-wild and their camera positions. The first step of our approach relies on the training of a <span style="color:red">3D diffusion model</span>, which can serve as geometric priors for our NeRF model. This diffusion model produces an 32 x 32 x 32 occupancy grid. To create this diffusion model, we finetune the 3D diffusion model on a small dataset of voxels around the human knee generated synthetically.
+Our goal is to produce a 3D representation given a set of ultrasound images taken in the wild and their camera positions. The first step of our approach relies on the training of a <span style="color:red">3D diffusion model</span>, which can serve as geometric priors for our NeRF model. This diffusion model produces an 32 x 32 x 32 occupancy grid. To create this diffusion model, we finetune the 3D diffusion model on a small dataset of voxels around the human knee generated synthetically.
 
 <img src="../assets/img/nerf-us/diffusion.png" alt="How to create diffusion model?" style="max-width: 90%; margin: 0 auto;">
 
@@ -320,7 +320,7 @@ We now train our NeRF model that takes in a 3D vector (denoting positions in 3D)
 
 <div class="content has-text-justified">
   <img src="../assets/img/nerf-us/results.png" style="max-width: 80%; margin: 0 auto;">
-  <p>Comparisions with baselines on our Ultrasound in-the-wild dataset.</p>
+  <p>Comparisions with baselines on our Ultrasound in the wild dataset.</p>
 </div>
 
 <div class="content has-text-justified">
@@ -333,9 +333,9 @@ We now train our NeRF model that takes in a 3D vector (denoting positions in 3D)
   })
 </script>
 
-## Ultrasound in-the-wild Dataset
+## Ultrasound in the wild Dataset
 
-Here we show some instances of our new ultrasound in-the-wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset. For visualization, we pre-process these videos with a script.
+Here we show some instances of our new ultrasound in the wild dataset, we limit the visualizations of the dataset to the first 10 seconds of some of the scenes in our dataset. For visualization, we pre-process these videos with a script.
 
 <div class="content">
   <button class="button is-black is-block" onclick="toggleCodeBlock()">Show pre-processing script</button>
@@ -416,7 +416,7 @@ echo "All files have been processed."
     </div>
   </div>
   <h5 class="subtitle has-text-centered">
-    Examples from our ultrasound in-the-wild dataset. 
+    Examples from our ultrasound in the wild dataset. 
   </h5>
 </section>
 
