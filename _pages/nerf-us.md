@@ -113,12 +113,14 @@ if its decimal can be written down by a machine...
 
 <h2 id="motivation">Motivation</h2>
 
-<table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="padding-right: 8px; text-align: left;">There are a few challenges common when using previous medical NeRF methods and standard methods: the need for high-quality, diverse datasets, capturing intricate details like <span style="color:red">tissue interface locations</span> critical for medical diagnosis, accurately modeling transparent and reflective surfaces. There are quite a few <span style="color:red">NeRF artifacts</span> that appear when using these methods in the wild. In contrast to this, our approach (as shown) produces artifact-free reconstructions with minor details accurately reconstructed.</td>
-    <td style="padding-left: 8px; text-align: right;"><img src="../assets/img/nerf-us/param.png" alt="Showcasing boundaries." style="width: auto; max-width: 90%;"></td>
-  </tr>
-</table>
+<div style="display: flex; width: 100%;">
+    <div style="width: 75%; padding-right: 8px; text-align: left;">
+        There are a few challenges common when using previous medical NeRF methods and standard methods: the need for high-quality, diverse datasets, capturing intricate details like <span style="color:red">tissue interface locations</span> critical for medical diagnosis, accurately modeling transparent and reflective surfaces. There are quite a few <span style="color:red">NeRF artifacts</span> that appear when using these methods in the wild. In contrast to this, our approach (as shown) produces artifact-free reconstructions with minor details accurately reconstructed.
+    </div>
+    <div style="width: 15%; padding-left: 8px; text-align: right; display: flex; justify-content: center; align-items: center;">
+        <img src="../assets/img/nerf-us/param.png" alt="Showcasing boundaries." style="width: 100%; height: auto; max-width: 90%;">
+    </div>
+</div>
 
 <h2>How does <span class="dnerf">NeRF-US</span> work?</h2>
 
