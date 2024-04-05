@@ -92,19 +92,7 @@ nav_order: -1
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
-The "computable" numbers may be described briefly as the real
-numbers whose expressions as a decimal are calculable by finite means.
-Although the subject of this paper is ostensibly the computable numbers.
-it is almost equally easy to define and investigate computable functions
-of an integral variable or a real or computable variable, computable
-predicates, and so forth. The fundamental problems involved are,
-however, the same in each case, and I have chosen the computable numbers
-for explicit treatment as involving the least cumbrous technique. I hope
-shortly to give an account of the relations of the computable numbers,
-functions, and so forth to one another. This will include a development
-of the theory of functions of a real variable expressed in terms of computable
-numbers. According to my definition, a number is computable
-if its decimal can be written down by a machine...
+Current methods of performing 3D reconstruction and novel view synthesis (NVS) on ultrasound imaging data often face severe ultrasound artifacts when training NeRF-based approaches. The kind of artifacts current approaches produce are different from NeRF floaters for general scenes due to the nature of how ultrasounds are captured. Furthermore, current models completely fail to produce reasonable 3D reconstructions when ultrasound data is casually captured or captured in the wild which is also how currently most ultrasounds are captured by clinicians. This leads to current reconstruction and NVS approaches being unable to handle ultrasound motion, do not capture intricate details, and are unable to model transparent and reflective surfaces. In this work, we introduce \acronym which incorporates 3D-geometry guidance for border probability and scattering density in the NeRF training while also using ultrasound rendering over volume rendering. We learn these 3D priors are learned through a diffusion model. Experiments conducted on our new ``Ultrasound in the wild'' dataset, we observe accurate artifact-free reconstructions.
         </div>
     </div>
 </div>
