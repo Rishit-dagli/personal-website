@@ -429,11 +429,11 @@ echo "All files have been processed."
 
 <h2 id="related-links">Related Links</h2>
 
-The following works were mentioned on this page:<br>
+The following works were mentioned on this page:<br><br>
 
-[1] Tancik, Matthew, et al. "Nerfstudio: A modular framework for neural radiance field development." ACM SIGGRAPH 2023 Conference Proceedings. 2023.<br>
+[1] Tancik, Matthew, et al. "Nerfstudio: A modular framework for neural radiance field development." ACM SIGGRAPH 2023 Conference Proceedings. 2023.<br><br>
 
-[2] Wysocki, Magdalena, et al. "Ultra-nerf: neural radiance fields for ultrasound imaging." Medical Imaging with Deep Learning. PMLR, 2024.<br>
+[2] Wysocki, Magdalena, et al. "Ultra-nerf: neural radiance fields for ultrasound imaging." Medical Imaging with Deep Learning. PMLR, 2024.<br><br>
 
 [3] Kerbl, Bernhard, et al. "3d gaussian splatting for real-time radiance field rendering." ACM Transactions on Graphics 42.4 (2023): 1-14.
 
