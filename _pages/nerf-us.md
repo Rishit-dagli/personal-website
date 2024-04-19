@@ -17,7 +17,7 @@ arxiv: blank
 paper: blank
 video: blank
 code: blank
-data: blank
+data: https://huggingface.co/datasets/rishitdagli/us-in-the-wild
 nav: false
 nav_order: -1
 ---
