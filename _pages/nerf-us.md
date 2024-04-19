@@ -7,12 +7,10 @@ headtitle:
 title:
     NeRF-US<span>&#128100;&#128100;&#58;</span> Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild
 authors:
-    <a href="https://www.cs.toronto.edu/~rishit">Rishit Dagli</a><sup>1,4</sup>, <a href="https://hibiat.github.io/cv1/">Atsuhiro Hibi</a><sup>2,3</sup>, <a href="https://scholar.google.com/citations?user=c-KHCzEAAAAJ&hl=en&oi=ao">Pascal Tyrrell</a><sup>2,3,4</sup>
+    <a href="https://www.cs.toronto.edu/~rishit">Rishit Dagli</a><sup>1</sup>, <a href="https://hibiat.github.io/cv1/">Atsuhiro Hibi</a><sup>1,2</sup>, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=c-KHCzEAAAAJ&hl=en&oi=ao">Pascal Tyrrell</a><sup>1,2</sup>
 affiliations:
-    <sup>1</sup> Department of Computer Science, University of Toronto, Canada<br>
-    <sup>2</sup> Institute of Medical Science, University of Toronto, Canada<br>
-    <sup>3</sup> Department of Medical Imaging, University of Toronto, Canada<br>
-    <sup>4</sup> Department of Statistical Sciences, University of Toronto, Canada
+    <sup>1</sup> University of Toronto, Canada<br>
+    <sup>2</sup> Institute of Medical Science, University of Toronto, Canada
 arxiv: blank
 paper: blank
 video: blank
