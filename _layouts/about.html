@@ -17,6 +17,8 @@ layout: default
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
+              {%- assign profile_image_path2 = page.profile.image2 | prepend: 'assets/img/' -%}
+
               {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
@@ -26,6 +28,7 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
+              hover_path=profile_image_path2
               alt=page.profile.image -%}
             {% endif -%}
             {%- if page.profile.address %}

@@ -7,6 +7,7 @@ subtitle: 2nd year CS Undergrad @ UofT, ML and Vision Research @ Qualcomm, DGP L
 profile:
   align: right
   image: rishit.png
+  image2: rishit_prof.png
   image_circular: false # crops the image to make it circular
   address: 
 news: true  # includes a list of news items
