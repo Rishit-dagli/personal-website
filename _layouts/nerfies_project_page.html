@@ -7,8 +7,12 @@
   <meta name="keywords" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.headtitle }}</title>
-  <link rel="icon"
+  {% if page.title == "nus" %}
+    <link rel="icon" href="../assets/img/emojis/nerfus.png">  
+  {% else %}
+    <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+  {% endif %}
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHVEPP2GQR"></script>
@@ -28,8 +32,7 @@
   <link rel="stylesheet" href="../assets/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="../assets/css/nerfies_general.css">
-  <link rel="icon" href="../assets/images/favicon.svg">
-
+  <!-- <link rel="icon" href="../assets/images/favicon.svg"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="../assets/js/fontawesome.all.min.js"></script>
   <script src="../assets/js/bulma-carousel.min.js"></script>
@@ -47,6 +50,13 @@
       }
     }
   </script>
+  <style>
+    h1 img {
+        width: 50px; /* Adjust the width as needed */
+        height: auto; /* Maintain the aspect ratio */
+        vertical-align: middle; /* Align the image vertically with the text */
+    }
+  </style>
 </head>
 
 <body>
@@ -55,7 +65,12 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">{{ page.title }}</h1>
+            {% if page.title == "nus" %}
+              <h1 class="title is-1 publication-title">NeRF-US<img src="../assets/img/emojis/nerfus.png" style="vertical-align: middle;">
+                <br>Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild</h1>
+            {% else %}
+              <h1 class="title is-1 publication-title">{{ page.title }}</h1>
+            {% endif %}
             {% if page.authors %}
             <div class="is-size-5 publication-authors">
               <span class="author-block">

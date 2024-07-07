@@ -5,7 +5,7 @@ permalink: /nerf-us/
 headtitle:
     NeRF-US
 title:
-    NeRF-US<span>&#128100;&#128100;&#58;</span> Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild
+    nus
 authors:
     <a href="https://www.cs.toronto.edu/~rishit">Rishit Dagli</a><sup>1</sup>, <a href="https://hibiat.github.io/cv1/">Atsuhiro Hibi</a><sup>1,2</sup>, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a><sup>1</sup>, <a href="https://scholar.google.com/citations?user=c-KHCzEAAAAJ&hl=en&oi=ao">Pascal Tyrrell</a><sup>1,2</sup>
 affiliations:
@@ -13,15 +13,12 @@ affiliations:
     <sup>2</sup> Institute of Medical Science, University of Toronto, Canada
 arxiv: blank
 paper: blank
-video: blank
 code: blank
 data: https://huggingface.co/datasets/rishitdagli/us-in-the-wild
 nav: false
 nav_order: -1
 ---
-
 ---
-
 <div id="loading">
   <div class="loader"></div>
   <!-- <img id="loading-image" src="path/to/ajax-loader.gif" alt="Loading..." /> -->
@@ -90,7 +87,7 @@ nav_order: -1
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
-Current methods of performing 3D reconstruction and novel view synthesis (NVS) on ultrasound imaging data often face severe ultrasound artifacts when training NeRF-based approaches. The kind of artifacts current approaches produce are different from NeRF floaters for general scenes due to the nature of how ultrasounds are captured. Furthermore, current models completely fail to produce reasonable 3D reconstructions when ultrasound data is casually captured or captured in the wild which is also how currently most ultrasounds are captured by clinicians. This leads to current reconstruction and NVS approaches being unable to handle ultrasound motion, do not capture intricate details, and are unable to model transparent and reflective surfaces. In this work, we introduce \acronym which incorporates 3D-geometry guidance for border probability and scattering density in the NeRF training while also using ultrasound rendering over volume rendering. We learn these 3D priors are learned through a diffusion model. Experiments conducted on our new ``Ultrasound in the wild'' dataset, we observe accurate artifact-free reconstructions.
+Current methods for performing 3D reconstruction and novel view synthesis (NVS) in ultrasound imaging data often face severe artifacts when training NeRF-based approaches. The artifacts produced by current approaches differ from NeRF floaters in general scenes because of the unique nature of ultrasound capture. Furthermore, existing models fail to produce reasonable 3D reconstructions when ultrasound data is captured or obtained casually in uncontrolled environments, which is common in clinical settings. Consequently, existing reconstruction and NVS methods struggle to handle ultrasound motion, fail to capture intricate details, and cannot model transparent and reflective surfaces. In this work, we introduce NeRF-US, which incorporates 3D-geometry guidance for border probability and scattering density into NeRF training, while also utilizing ultrasound-specific rendering over traditional volume rendering. These 3D priors are learned through a diffusion model. Through experiments conducted on our new ``Ultrasound in the Wild'' dataset, we observe accurate, clinically plausible, artifact-free reconstructions.
         </div>
     </div>
 </div>
