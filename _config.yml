@@ -255,7 +255,7 @@ scholar:
   last_name: [Dagli]
   first_name: [Rishit]
 
-  style: apa
+  style: acm-siggraph
   locale: en
 
   source: /_bibliography/

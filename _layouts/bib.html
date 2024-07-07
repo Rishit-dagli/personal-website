@@ -126,15 +126,30 @@
         {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
         {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+        
         <div class="periodical">
-          {{ periodical | strip }}
-        </div>
-        <div class="periodical">
-          {{ entry.note | strip }}
+          {% if entry.type == "article" %}
+            <em>{{entry.journal}}</em>
+          {% elsif entry.type == "inproceedings" %}
+            <em>{{entry.booktitle}}</em>
+          {% endif %}
+          {% if entry.year %}
+            <em>{{entry.year}}</em>
+          {% endif %} 
+          {% if entry.note %}
+          <strong style="color:red;">({{entry.note}})</strong>
+          {% endif %}
         </div>
 
           <!-- Links/Buttons -->
           <div class="links">
+          {% if entry.projpage %}
+            {% if entry.projpage contains '://' %}
+              <a href="{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button">Project Webpage</a>
+            {% else %}
+              <a href="/publications/{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button">Project Webpage</a>
+            {% endif %}
+          {% endif %}
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
           {%- endif %}

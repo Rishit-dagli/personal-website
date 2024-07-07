@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 2nd year CS Undergrad @ UofT, ML and Vision Research @ Civo, DGP Lab, Vector Institute
+subtitle: 2nd year CS Undergrad @ UofT, ML and Vision Research @ Qualcomm, DGP Lab, Vector Institute
 
 profile:
   align: right
