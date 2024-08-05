@@ -9,10 +9,9 @@ title:
 authors:
     <a href="https://www.cs.toronto.edu/~rishit">Rishit Dagli</a><sup>1,2</sup>, <a href="https://hibiat.github.io/cv1/">Atsuhiro Hibi</a><sup>2,3,4</sup>, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a><sup>1,3</sup>, <a href="https://scholar.google.com/citations?user=c-KHCzEAAAAJ&hl=en&oi=ao">Pascal Tyrrell</a><sup>2,3,5</sup>
 affiliations:
-    Departments of <sup>1</sup> Computer Science;
-    <sup>2</sup> Medical Imaging; <sup>4</sup> Laboratory Medicine and Pathobiology; <sup>5</sup> Statistical Sciences, University of Toronto, Canada<br>
-    <sup>3</sup> Institute of Medical Sciences, University of Toronto, Canada<br>
-    <sup>4</sup> Division of Neurosurgery, St Michael's Hospital, Unity Health Toronto, Canada
+    Departments of <sup>1</sup> Computer Science; <sup>2</sup> Medical Imaging, University of Toronto, Canada<br>
+    <sup>3</sup> Division of Neurosurgery, St Michael's Hospital, Unity Health Toronto, Canada<br>
+    <sup>4</sup> Institute of Medical Science; Departments of <sup>5</sup> Laboratory Medicine and Pathobiology; <sup>6</sup> Statistical Sciences, University of Toronto, Canada
 arxiv: blank
 paper: blank
 code: https://github.com/Rishit-dagli/nerf-us
