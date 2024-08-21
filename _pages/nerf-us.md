@@ -423,14 +423,14 @@ The following works were mentioned on this page:<br><br>
 
 <h2 id="citation">Citation</h2>
 
-<pre><code>@article{turing1936computable,
-  title={On computable numbers, with an application to the Entscheidungsproblem},
-  author={Turing, Alan Mathison},
-  journal={Journal of Mathematics},
-  volume={58},
-  number={345-363},
-  pages={5},
-  year={1936}
+<pre><code>@misc{dagli2024nerfusremovingultrasoundimaging,
+      title={NeRF-US: Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild}, 
+      author={Rishit Dagli and Atsuhiro Hibi and Rahul G. Krishnan and Pascal N. Tyrrell},
+      year={2024},
+      eprint={2408.10258},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.10258}, 
 }</code></pre>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
