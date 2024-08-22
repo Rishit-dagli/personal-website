@@ -5,7 +5,7 @@ permalink: /nerf-us/
 headtitle:
     NeRF-US
 title:
-    NeRF-US
+    NeRF-US<span>&#128100;&#128100;&#58;</span> Neural Radiance Fields for Accurate Ultrasound Imaging in the Wild
 authors:
     <a href="https://www.cs.toronto.edu/~rishit">Rishit Dagli</a><sup>1,2</sup>, <a href="https://hibiat.github.io/cv1/">Atsuhiro Hibi</a><sup>2,3,4</sup>, <a href="https://www.cs.toronto.edu/~rahulgk/">Rahul G. Krishnan</a><sup>1,5</sup>, <a href="https://scholar.google.com/citations?user=c-KHCzEAAAAJ&hl=en&oi=ao">Pascal Tyrrell</a><sup>2,4,6</sup>
 affiliations:
