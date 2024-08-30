@@ -20,10 +20,7 @@ nav: false
 nav_order: -1
 ---
 ---
-<div id="loading">
-  <div class="loader"></div>
-  <!-- <img id="loading-image" src="path/to/ajax-loader.gif" alt="Loading..." /> -->
-</div>
+
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
