@@ -111,7 +111,7 @@ Our goal is to produce a 3D representation given a set of ultrasound images take
 <img src="../assets/img/nerf-us/diffusion.png" alt="How to create diffusion model?" style="max-width: 90%; margin: 0 auto;">
 <p>Figure: An overview of how our diffusion model is fine-tuned, we use 32<sup>3</sup>-sized patches to LoRA-finetune a 3D diffusion model trained on ShapeNet.</p>
 
-We now train our NeRF model that takes in a 3D vector (denoting positions in 3D) and learns a 5D vector (attenuation, reflectance, border probabiltiy, scattering density, and scattering intensity). While training this NeRF, we run the outputs through the diffusion model and obtain <span style="color:red">guidance vectors</span> for <span style="color:red">border probability</span> and <span style="color:red">scattering density</span>. These are added to the photometric loss. We finally train the NeRF with this final loss we calculated.
+We now train our NeRF model that takes in a 3D vector (denoting positions in 3D) and learns a 5D vector (attenuation, reflectance, border probability, scattering density, and scattering intensity). While training this NeRF, we run the outputs through the diffusion model and obtain <span style="color:red">guidance vectors</span> for <span style="color:red">border probability</span> and <span style="color:red">scattering density</span>. These are added to the photometric loss. We finally train the NeRF with this final loss we calculated.
 
 <div class="content has-text-justified">
 <img src="../assets/img/nerf-us/methods.png" alt="How to train our model?" style="max-width: 90%; margin: 0 auto;">
@@ -311,7 +311,7 @@ We now train our NeRF model that takes in a 3D vector (denoting positions in 3D)
 </div>
 
 <div class="content has-text-justified">
-<img src="../assets/img/nerf-us/resultsdepth.png" alt="Depth comparisions" style="max-width: 80%; margin: 0 auto;">
+<img src="../assets/img/nerf-us/resultsdepth.png" alt="Depth comparisons" style="max-width: 80%; margin: 0 auto;">
 <p>Figure: <b>Qualitative Results.</b> We demonstrate the results of depth maps produced from our method and compare them qualitatively with Nerfacto [1], Gaussian Splatting [3], and Ultra-NeRF [2] (<b>best viewed in color and with zoom</b>).</p>
 
 </div>
