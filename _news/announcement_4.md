@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released our work on the first vision-spatial audio model. [Arxiv](https://arxiv.org/abs/2406.06612). [Code and Web Demo](https://github.com/see2sound/see2sound).
+We released the first vision (images and video)-spatial audio model as a step towards complete generation. [Arxiv](https://arxiv.org/abs/2406.06612). [Code and Web Demo](https://github.com/see2sound/see2sound).
