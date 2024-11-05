@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released a new [large-scale dataset](https://arxiv.org/abs/2410.02921) for video understanding.
+We released a new large-scale dataset for video understanding. [Arxiv](https://arxiv.org/abs/2410.02921).
