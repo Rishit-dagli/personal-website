@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-03-02 15:59:00-0400
+date: 2024-02-13 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-1 paper accepted to ICLRW.
+Received the T-CAIREM award for students at UofT.
