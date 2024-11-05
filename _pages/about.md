@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CS, Math, Stats Student at UofT, DGP Lab, Vector Institute
+subtitle: CS, Math, Stats Undergrad at <a href="https://web.cs.toronto.edu/">UofT</a>, DGP Lab, Vector Institute
 
 profile:
   align: right
@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I write a [blog](https://rishit-dagli.github.io/). -->
 
-I am a CS, Math, and Stats undergrad at [The University of Toronto](https://web.cs.toronto.edu/). I am mainly interested in learning algorithms, computer vision (visual generation, vision-language models, and neural rendering), learning theory, and math. I have also represented my country in international olympiads. Feel free to talk with me about anything CS, Math, Robotics, or Physics.
+I am mainly interested in learning algorithms, computer vision (visual generation, vision-language models, and neural rendering), learning theory, and math. I have also represented my country in international olympiads. Feel free to talk with me about anything CS, Math, Robotics, or Physics.
 
 I will be pausing my undergrad in January 2025 to join [NVIDIA Research](https://research.nvidia.com/labs/toronto-ai/) to work on research around neural rendering and generation. At **UofT**, I have been lucky to be supervised by these professors who I admire: [Nandita Vijaykumar](https://www.cs.toronto.edu/~nandita/), [Rahul G. Krishnan](https://www.cs.toronto.edu/~rahulgk/), [Pascal Tyrrell](https://www.tyrrell4innovation.ca/), [David Lindell](https://davidlindell.com/), and [Houman Khosravani](https://scholar.google.ca/citations?user=qzhk98YAAAAJ&hl=en). In **industry** after I switched boats to research, I have been lucky to be supervised by these people who I admire: [Roland Memisevic](https://www.iro.umontreal.ca/~memisevr/) and [Guillaume Berger](https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en) from my time at [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), [Josh Mesout](https://uk.linkedin.com/in/mesout) from my time at [Civo](https://www.civo.com/). In **high school**, I have been lucky to be supervised by these people who I admire: [Ali Mustufa](https://in.linkedin.com/in/ialimustufa) and [Prof. Suleyman Eken](https://avesis.kocaeli.edu.tr/suleyman.eken).
 
