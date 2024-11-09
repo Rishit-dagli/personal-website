@@ -19,8 +19,17 @@ data: https://huggingface.co/datasets/rishitdagli/us-in-the-wild
 nav: false
 nav_order: -1
 ---
----
 
+<section class="hero">
+  <div class="container">
+    <h2 class="subtitle has-text-centered">
+      <span style="color: #4DAF50">
+        NeRF-US trains a NeRF on sound fields.
+      </span>
+    </h2>
+  </div>
+</section>
+<br><br>
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
