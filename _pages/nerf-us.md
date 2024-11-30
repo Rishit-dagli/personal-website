@@ -19,17 +19,15 @@ data: https://huggingface.co/datasets/rishitdagli/us-in-the-wild
 nav: false
 nav_order: -1
 ---
-
 <section class="hero">
   <div class="container">
-    <h5 class="subtitle has-text-centered">
+    <h4 class="subtitle has-text-centered">
       <span style="color: #4DAF50">
         <span class="dnerf">NeRF-US</span> trains a NeRF on sound fields.
       </span>
-    </h5>
+    </h4>
   </div>
 </section>
-<br><br>
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -425,7 +423,8 @@ The following works were mentioned on this page:<br><br>
 
 <h2 id="citation">Citation</h2>
 
-<pre><code>@misc{dagli2024nerfusremovingultrasoundimaging,
+<div style="position: relative;">
+  <pre><code id="citationCode">@misc{dagli2024nerfusremovingultrasoundimaging,
       title={NeRF-US: Removing Ultrasound Imaging Artifacts from Neural Radiance Fields in the Wild}, 
       author={Rishit Dagli and Atsuhiro Hibi and Rahul G. Krishnan and Pascal N. Tyrrell},
       year={2024},
@@ -434,6 +433,19 @@ The following works were mentioned on this page:<br><br>
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2408.10258}, 
 }</code></pre>
+  <button class="button is-small is-dark" onclick="copyCitation()" style="position: absolute; top: 10px; right: 10px;">
+    <span class="icon">
+      <i class="fas fa-copy"></i>
+    </span>
+  </button>
+</div>
+
+<script>
+  function copyCitation() {
+    var citationCode = document.getElementById("citationCode").innerText;
+    navigator.clipboard.writeText(citationCode);
+  }
+</script>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
