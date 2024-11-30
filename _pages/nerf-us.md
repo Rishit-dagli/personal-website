@@ -34,13 +34,18 @@ nav_order: -1
   <div class="container is-max-desktop">
     <div class="hero-body">
       <img src="../assets/img/nerf-us/teaser.png" alt="NeRF-US Teaser Image" style="max-width: 100%; margin: 0 auto;">
-      <h5 class="subtitle has-text-centered">
-        <span class="dnerf">NeRF-US</span> turns ultrasounds captured in the wild into artifact-free 3D reconstructions.
-      </h5>
     </div>
   </div>
 </section>
-
+<section class="hero">
+  <div class="container">
+    <h2 class="subtitle has-text-centered">
+      <span style="color: #4DAF50">
+        <span class="dnerf">NeRF-US</span> turns ultrasounds captured in the wild into artifact-free 3D reconstructions.
+      </span>
+    </h2>
+  </div>
+</section>
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
