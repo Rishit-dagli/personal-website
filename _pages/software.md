@@ -6,7 +6,7 @@ nav: true
 nav_order: 3
 ---
 
-In my past life, I used to do a lot of software development. I have given a few community talks which are listed here.
+In a past life, I used to do a lot of software engineering. I have presented a few talks at software conferences which are listed here.
 
 | About | Conference |
 | ------ | ----------- |
