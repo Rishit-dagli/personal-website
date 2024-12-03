@@ -6,7 +6,42 @@ nav: true
 nav_order: 3
 ---
 
-In a past life, I used to do a lot of software engineering. I have presented a few talks at software conferences which are listed here.
+In a past life, I used to do a lot of software engineering. I have listed a few open-source projects **I started**. I have presented a few talks at software conferences which are also listed here.
+
+{% for project in site.data.repositories %}
+<div class="repository d-flex">
+  <div class="project-thumbnail">
+    {% if project.preview %}
+    <img src="{{ project.preview | prepend: '/assets/img/' | relative_url }}" alt="project preview">
+    {% else %}
+    <div class="empty-img"></div>
+    {% endif %}
+  </div>
+  <div class="project-info">
+    <div class="title">{{ project.name }}</div>
+    <div class="description">{{ project.description }}</div>
+    <div class="links">
+      {% if project.github %}
+      <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">
+        <button><i class="fab fa-github"></i> Code</button>
+      </a>
+      {% endif %}
+      {% if project.url %}
+      <a href="{{ project.url }}" target="_blank" rel="noopener noreferrer">
+        <button><i class="fas fa-globe"></i> Project Webpage</button>
+      </a>
+      {% endif %}
+      {% if project.video %}
+      <a href="{{ project.video }}" target="_blank" rel="noopener noreferrer">
+        <button><i class="fas fa-video"></i> Video</button>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endfor %}
+
+---
 
 | About | Conference |
 | ------ | ----------- |
@@ -23,8 +58,10 @@ In a past life, I used to do a lot of software engineering. I have presented a f
 | [Contributing to Kubernetes Made Easier than ever with Codespaces](https://youtu.be/6xYQ8l4Jf1w) | [Kubernetes Contributor Summit North America](https://events.linuxfoundation.org/kubernetes-contributor-summit/), 24 October 2022 |
 | [WebAssembly Based AI as a Service on the Edge with Kubernetes](https://youtu.be/6xYQ8l4Jf1w) | [ONE Summit](https://www.onesummit.org/), 16 November 2022 |
 | [Serverless Magic for ML Orchestration using Kubeflow](https://youtu.be/6xYQ8l4Jf1w) | [Kubeflow Summit](https://events.linuxfoundation.org/kubeflow-summit/), 18 October 2022 |
-| [Federated Machine Learning with Kubernetes](https://youtu.be/6xYQ8l4Jf1w) | [Open Source Summit Latin America](https://events.linuxfoundation.org/open-source-summit-latin-america/), 24 August 2022 |
 | [Deploying ML at Scale with Kubernetes and TFX](https://youtu.be/6xYQ8l4Jf1w) | [Open Source Summit Latin America](https://events.linuxfoundation.org/open-source-summit-latin-america/), 24 August 2022 |
-| [WebAssembly Based AI as a Service](https://youtu.be/6xYQ8l4Jf1w) | [Open Source Summit Latin America](https://events.linuxfoundation.org/open-source-summit-latin-america/), 24 August 2022 |
 | [WebAssembly based AI as a Service with Kubernetes](https://youtu.be/6xYQ8l4Jf1w) | [Kubernetes Community Days](https://www.cncf.io/community/kcd/), 8 July 2022 |
 | [Fantastic Models and where to find them](https://youtu.be/6xYQ8l4Jf1w) | [TensorFlow User Group Mumbai](https://www.meetup.com/tfugmumbai) |
+| [Educational Reference Video on WebAssembly](https://youtu.be/eYekV2Do0YU) | [Webpage](https://kubesimplify.github.io/wasm-course) |
+
+<!-- | [Federated Machine Learning with Kubernetes](https://youtu.be/6xYQ8l4Jf1w) | [Open Source Summit Latin America](https://events.linuxfoundation.org/open-source-summit-latin-america/), 24 August 2022 | -->
+<!-- | [WebAssembly Based AI as a Service](https://youtu.be/6xYQ8l4Jf1w) | [Open Source Summit Latin America](https://events.linuxfoundation.org/open-source-summit-latin-america/), 24 August 2022 | -->
