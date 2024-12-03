@@ -1,76 +1,58 @@
 - name: MIRNet-TFJS
   description: TensorFlow JS models for MIRNet for low-light💡 image enhancement that can run entirely on your browser.
   github: https://github.com/Rishit-dagli/MIRNet-TFJS
-  preview: project-preview.jpg
   video: https://youtu.be/BMza5yrwZ9
 - name: Fast-Transformer
   description: An optimized implementation of Additive Attention.
   github: https://github.com/Rishit-dagli/Fast-Transformer
-  preview: project-preview.jpg
 - name: 3D Transforms
   description: A library to easily work with 3D data and make 3D transformations.
   github: https://github.com/Rishit-dagli/3d-transforms
-  preview: project-preview.jpg
   url: https://rishit-dagli.github.io/3d-transforms/
 - name: Gradient-Centralization
   description: Instantly improve your training performance by implementing Gradient Centralization in optimizers.
   github: https://github.com/Rishit-dagli/Gradient-Centralization-TensorFlow
-  preview: project-preview.jpg
 - name: Perceiver
   description: An optimized implementation of Perceiver.
   github: https://github.com/Rishit-dagli/Perceiver
-  preview: project-preview.jpg
 - name: Greenathon
   description: Originally a hackathon submission, shows how to train models specifically for deploying them to run entirely on browsers.
   github: https://github.com/Rishit-dagli/Greenathon-Plant-AI
-  preview: project-preview.jpg
 - name: ISAB
   description: A framework to use Permutation-Invariant Neural Networks.
   github: https://github.com/Rishit-dagli/isab
-  preview: project-preview.jpg
 - name: ML With Android 11
   description: Popular samples for optimized inference for machine learning models on Android using TensorFlow Lite using capabilities introduced in Android 11.
   github: https://github.com/Rishit-dagli/ML-with-Android-11
   video: https://www.droidcon.com/2020/12/15/superpower-your-android-apps-with-ml-android-11/
-  preview: project-preview.jpg
 - name: Face-Recognition Flutter
   description: Popular samples for optimized inference for machine learning models on Android using Flutter and Firebase ML Kit.
   github: https://github.com/Rishit-dagli/Face-Recognition_Flutter
-  preview: project-preview.jpg
 - name: TF Watcher
   description: A tool to monitor your ML jobs remotely.
   github: https://github.com/Rishit-dagli/TF-Watcher
   url: https://rishit-dagli.github.io/TF-Watcher/
-  preview: project-preview.jpg
 - name: Nystromformer
   description: An optimized implementation of using Nyström Method for approximation self-attention.
   github: https://github.com/Rishit-dagli/Nystromformer
-  preview: project-preview.jpg
 - name: Transformer in Transformer
   description: An optimized implementation of performing attention inside local patches for image classification.
   github: https://github.com/Rishit-dagli/Transformer-in-Transformer
-  preview: project-preview.jpg
 - name: Conformer
   description: One of the first implementations of the popular Conformer.
   github: https://github.com/Rishit-dagli/Conformer
-  preview: project-preview.jpg
 - name: GLOM
   description: One of the first implementations of the popular Hinton's GLOM with optimization to make it runnable.
   github: https://github.com/Rishit-dagli/GLOM-TensorFlow
-  preview: project-preview.jpg
 - name: GLU
   description: Gated Linear Units and many of their variants.
   github: https://github.com/Rishit-dagli/GLU
-  preview: project-preview.jpg
 - name: Compositional Attention
   description: An optimized implementation of Compositional Attention and their variants around Disentangling Search and Retrieval.
   github: https://github.com/Rishit-dagli/Compositional-Attention
-  preview: project-preview.jpg
 - name: Invariant Point Attention
   description: Invariant Point Attention from AlphaFold 2 for all problems.
   github: https://github.com/Rishit-dagli/Invariant-Attention
-  preview: project-preview.jpg
 - name: Wasm FAAS
   description: A proof of concept to run Machine Learning models as serverless functions with Wasm.
   github: https://github.com/Rishit-dagli/wasm-faas-tensorflow
-  preview: project-preview.jpg
