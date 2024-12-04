@@ -12,7 +12,7 @@ In a past life, I used to do a lot of software engineering. I have listed a few 
 <div class="repository d-flex">
   <div class="project-thumbnail">
     {% if project.preview %}
-    <img src="{{ project.preview | prepend: '/assets/img/' | relative_url }}" alt="project preview">
+    <img src="{{ project.preview | prepend: '/assets/img/software/' | relative_url }}" alt="project preview">
     {% else %}
     <div class="empty-img"></div>
     {% endif %}
