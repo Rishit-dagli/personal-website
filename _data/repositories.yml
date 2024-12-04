@@ -19,7 +19,7 @@
 - name: Perceiver
   description: An optimized implementation of Perceiver.
   github: https://github.com/Rishit-dagli/Perceiver
-  preview: perceiver.png
+  preview: 
 - name: Greenathon
   description: Originally a hackathon submission, shows how to train models specifically for deploying them to run entirely on browsers.
   github: https://github.com/Rishit-dagli/Greenathon-Plant-AI
