@@ -6,7 +6,9 @@ nav: true
 nav_order: 3
 ---
 
-In a past life, I used to do a lot of software engineering. I have listed a few open-source projects **I started**. I have presented a few talks at software conferences which are also listed here.
+In a past life, I used to do a lot of software engineering. I have listed a few [open-source projects](#selected-software) **I started** (apart from research codebases). I have presented a few [talks at software conferences](#conference-talks) which are also listed here.
+
+## selected software
 
 {% for project in site.data.repositories %}
 <div class="repository d-flex">
@@ -19,7 +21,7 @@ In a past life, I used to do a lot of software engineering. I have listed a few 
   </div>
   <div class="project-info">
     <div class="title">{{ project.name }}</div>
-    <div class="description">{{ project.description }}</div>
+    <div class="description">{{ project.description }}{% if project.trending %} <div style="color: red; display: inline;"><b>(GitHub Trending)</b></div>{% endif %}</div>
     <div class="links">
       {% if project.github %}
       <a href="{{ project.github }}" target="_blank" rel="noopener noreferrer">
@@ -41,7 +43,7 @@ In a past life, I used to do a lot of software engineering. I have listed a few 
 </div>
 {% endfor %}
 
----
+## conference talks
 
 | About | Conference |
 | ------ | ----------- |

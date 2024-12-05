@@ -3,10 +3,12 @@
   github: https://github.com/Rishit-dagli/MIRNet-TFJS
   preview: mirnet.png
   video: https://youtu.be/BMza5yrwZ9
+  trending: true
 - name: Fast-Transformer
   description: An optimized implementation of Additive Attention.
   github: https://github.com/Rishit-dagli/Fast-Transformer
   preview: fastformer.png
+  trending: true
 - name: 3D Transforms
   description: A library to easily work with 3D data and make 3D transformations.
   github: https://github.com/Rishit-dagli/3d-transforms
@@ -16,14 +18,16 @@
   description: Instantly improve your training performance by implementing Gradient Centralization in optimizers.
   github: https://github.com/Rishit-dagli/Gradient-Centralization-TensorFlow
   preview: gctf.png
+  trending: true
 - name: Perceiver
   description: An optimized implementation of Perceiver.
   github: https://github.com/Rishit-dagli/Perceiver
   preview: perceiver.png
+  trending: true
 - name: Greenathon
   description: Originally a hackathon submission, shows how to train models specifically for deploying them to run entirely on browsers.
   github: https://github.com/Rishit-dagli/Greenathon-Plant-AI
-  preview: greenathon.png
+  trending: true
 - name: ISAB
   description: A framework to use Permutation-Invariant Neural Networks.
   github: https://github.com/Rishit-dagli/isab
@@ -33,6 +37,7 @@
   github: https://github.com/Rishit-dagli/ML-with-Android-11
   video: https://www.droidcon.com/2020/12/15/superpower-your-android-apps-with-ml-android-11/
   preview: a11.png
+  trending: true
 - name: Face-Recognition Flutter
   description: Popular samples for optimized inference for machine learning models on Android using Flutter and Firebase ML Kit.
   github: https://github.com/Rishit-dagli/Face-Recognition_Flutter
@@ -41,6 +46,7 @@
   github: https://github.com/Rishit-dagli/TF-Watcher
   url: https://rishit-dagli.github.io/TF-Watcher/
   preview: tfwatcher.png
+  trending: true
 - name: Nystromformer
   description: An optimized implementation of using Nyström Method for approximation self-attention.
   github: https://github.com/Rishit-dagli/Nystromformer
