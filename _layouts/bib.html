@@ -145,42 +145,42 @@
           <div class="links">
           {% if entry.projpage %}
             {% if entry.projpage contains '://' %}
-              <a href="{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button">Project Webpage</a>
+              <a href="{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-globe"></i> Project Webpage</a>
             {% else %}
-              <a href="/publications/{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button">Project Webpage</a>
+              <a href="/publications/{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-globe"></i> Project Webpage</a>
             {% endif %}
           {% endif %}
           {%- if entry.abstract %}
-            <a href="{{ entry.abstract }}" class="btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="{{ entry.abstract }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-scroll"></i> Abs</a>
           {%- endif %}
           {%- if entry.arxiv %}
-            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+            <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button"><i class="ai ai-arxiv"></i> arXiv</a>
           {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
           {%- if entry.html %}
-            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+            <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-share-square"></i> HTML</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> PDF</a>
             {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> PDF</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
             <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- else -%}
-            <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+            <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> Supp</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
           {%- if entry.code %}
-            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+            <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button"><i class="fab fa-github"></i> Code</a>
           {%- endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
