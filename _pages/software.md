@@ -38,6 +38,11 @@ In a past life, I used to do a lot of software engineering. I have listed a few 
         <button><i class="fas fa-video"></i> Video</button>
       </a>
       {% endif %}
+      {% if project.pypi %}
+      <a href="{{ project.pypi }}" target="_blank" rel="noopener noreferrer">
+        <button><i class="fab fa-python"></i> PyPI</button>
+      </a>
+      {% endif %}
     </div>
   </div>
 </div>

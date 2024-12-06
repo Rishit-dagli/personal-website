@@ -9,21 +9,25 @@
   github: https://github.com/Rishit-dagli/Fast-Transformer
   preview: fastformer.png
   trending: true
+  pypi: https://pypi.org/project/fast-transformer/
 - name: 3D Transforms
   description: A library to easily work with 3D data and make 3D transformations.
   github: https://github.com/Rishit-dagli/3d-transforms
   preview: transforms.png
   url: https://rishit-dagli.github.io/3d-transforms/
+  pypi: https://pypi.org/project/tensorflow3dtransforms/
 - name: Gradient-Centralization
   description: Instantly improve your training performance by implementing Gradient Centralization in optimizers.
   github: https://github.com/Rishit-dagli/Gradient-Centralization-TensorFlow
   preview: gctf.png
   trending: true
+  pypi: https://pypi.org/project/gradient-centralization-tf/
 - name: Perceiver
   description: An optimized implementation of Perceiver.
   github: https://github.com/Rishit-dagli/Perceiver
   preview: perceiver.png
   trending: true
+  pypi: https://pypi.org/project/perceiver/
 - name: Greenathon
   description: Originally a hackathon submission, shows how to train models specifically for deploying them to run entirely on browsers.
   github: https://github.com/Rishit-dagli/Greenathon-Plant-AI
@@ -32,6 +36,7 @@
   description: A framework to use Permutation-Invariant Neural Networks.
   github: https://github.com/Rishit-dagli/isab
   preview: isab.png
+  pypi: https://pypi.org/project/isab/
 - name: ML With Android 11
   description: Popular samples for optimized inference for machine learning models on Android using TensorFlow Lite using capabilities introduced in Android 11.
   github: https://github.com/Rishit-dagli/ML-with-Android-11
@@ -47,34 +52,42 @@
   url: https://rishit-dagli.github.io/TF-Watcher/
   preview: tfwatcher.png
   trending: true
+  pypi: https://pypi.org/project/tf-watcher/
 - name: Nystromformer
   description: An optimized implementation of using Nyström Method for approximation self-attention.
   github: https://github.com/Rishit-dagli/Nystromformer
   preview: nystrom.png
+  pypi: https://pypi.org/project/nystromformer/
 - name: Transformer in Transformer
   description: An optimized implementation of performing attention inside local patches for image classification.
   github: https://github.com/Rishit-dagli/Transformer-in-Transformer
   preview: tnt.png
+  pypi: https://pypi.org/project/tnt-tensorflow/
 - name: Conformer
   description: One of the first implementations of the popular Conformer.
   github: https://github.com/Rishit-dagli/Conformer
   preview: conformer.png
+  pypi: https://pypi.org/project/conformer-tf/
 - name: GLOM
   description: One of the first implementations of the popular Hinton's GLOM with optimization to make it runnable.
   github: https://github.com/Rishit-dagli/GLOM-TensorFlow
   preview: glom.png
+  pypi: https://pypi.org/project/glom-tf/
 - name: GLU
   description: Gated Linear Units and many of their variants.
   github: https://github.com/Rishit-dagli/GLU
   preview: glu.png
+  pypi: https://pypi.org/project/glu-tf/
 - name: Compositional Attention
   description: An optimized implementation of Compositional Attention and their variants around Disentangling Search and Retrieval.
   github: https://github.com/Rishit-dagli/Compositional-Attention
   preview: compose.png
+  pypi: https://pypi.org/project/compositional-attention/
 - name: Invariant Point Attention
   description: Invariant Point Attention from AlphaFold 2 for all problems.
   github: https://github.com/Rishit-dagli/Invariant-Attention
   preview: ipa.png
+  pypi: https://pypi.org/project/invariant-attention/
 - name: Wasm FAAS
   description: A proof of concept to run Machine Learning models as serverless functions with Wasm.
   github: https://github.com/Rishit-dagli/wasm-faas-tensorflow
