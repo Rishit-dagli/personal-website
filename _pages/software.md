@@ -51,7 +51,7 @@ In a past life, I used to do a lot of software engineering. I have listed a few 
 ## conference talks
 
 | About | Conference |
-| ------ | ----------- |
+| ----- | ---------- |
 | [Orchestrating Machine Learning on Edge Devices](https://youtu.be/B3p9R71AgyY) | [PyTorch Conference](https://events.linuxfoundation.org/pytorch-conference/) |
 | [Building Highly Scalable Edge Computing with Project Akri & WebAssembly](https://youtu.be/qt_HLvpSyzs) | [Embedded Open Source Summit](https://events.linuxfoundation.org/embedded-open-source-summit/) |
 | [GitOps for Machine Learning Pipelines](https://youtu.be/CwZnOTZD5UE) | [CdCon + GitOpsCon](https://events.linuxfoundation.org/cdcon-gitopscon/), 9 May 2023 |
