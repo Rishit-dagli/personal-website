@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We released a new large-scale dataset for video understanding. [Arxiv](https://arxiv.org/abs/2410.02921).
+We released a new large-scale dataset for video understanding. [Arxiv](https://arxiv.org/abs/2410.02921). [Dataset](https://www.qualcomm.com/developer/software/airletters-dataset). (code release soon, in the hands of corporate overlords)
