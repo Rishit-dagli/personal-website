@@ -199,6 +199,9 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+          {%- if entry.leaderboard %}
+            <a href="{{ entry.leaderboard }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-trophy"></i> Leaderboard</a>
+          {%- endif %}
           </div>
           {% if site.badges %}
           <div class="badges">
