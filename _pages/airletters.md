@@ -52,6 +52,26 @@ We introduce AirLetters, a new video dataset consisting of real-world videos of 
 
 <h2 id="contents">Dataset Contents</h2>
 
+We focus on manual articulations of each letter of the Latin alphabet as well as numeric digits. This amounts to 36 primary gesture classes, for which recognition requires temporal and spatial analysis of the video. The dataset also includes two contrast classes designed to refine the sensitivity and specificity of recognition systems trained on our dataset. The “Doing Nothing” class includes videos of individuals in non-active states, such as sitting or standing still, to represent periods of inactivity within human-computer interactions, and the “Doing Other Things” class consists of clips capturing miscellaneous, non-communicative movements such as adjusting position or random hand movements.
+
+<div class="content has-text-justified">
+  <img src="../assets/img/airletters/air-letter-crowd-workers.jpg" style="max-width: 70%; margin: 0 auto;">
+  <p>Figure: <b>Diversity in our Dataset.</b> Each of the images is taken from a randomly sampled video from our dataset. Our dataset has a large variance in the appearance of subjects, background, occlusion, and lighting conditions in the videos.</p>
+</div>
+
+Our dataset has videos with precise articulated motion across many different frames instead of many other dataset which only need 1 frame or 2-4 frames to understand the video.
+
+<div class="content has-text-justified">
+  <img src="../assets/img/airletters/variation.png" style="max-width: 70%; margin: 0 auto;">
+  <p>Figure: <b>Challenges due to inter-class similarities and intra-class diversity.</b> We show some examples of drawing the letter “B” and the digit of “3”, where differentiating both of these classes also requires understanding depth and velocity of relative motion to understand if the individual intended to draw a vertical line (for “B”) or only meant to place their hands in position (for “3”). Underneath, we show examples of variability in drawing the letter “Y”. For example, in one way version of drawing the letter “Y”, only the last few frames show a stroke that distinguishes it from the letter “X”.</p>
+</div>
+
+Choosing a few key frames in our dataset does not help in understanding the video, and the entire video needs to be considered to understand the motion.
+
+<div class="content has-text-justified">
+  <img src="../assets/img/airletters/scaling.png" style="max-width: 70%; margin: 0 auto;">
+  <p>Figure: <b>Scaling Training Frames.</b> Performance of models across different numbers of training frames. The Pareto Frontier is represented by a black curve. Note that this dataset requires models to attend through the entire video to perform well, and increasing the number of frames that models attend to significantly increases their performance.</p>
+</div>
 
 <h2 id="stats">Dataset Statistics</h2>
 
