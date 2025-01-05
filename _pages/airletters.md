@@ -19,11 +19,13 @@ leaderboard: https://huggingface.co/spaces/rishitdagli/airletters-leaderboard
 nav: false
 nav_order: -1
 ---
+<div class="container" style="text-align: center;">
+  <h6 class="subtitle has-text-centered">
+      Note: This is an unofficial project page that I made after I finished my internship. 
+  </h6>
+</div>
 <section class="hero">
   <div class="container" style="text-align: center;">
-    <h6 class="subtitle has-text-centered">
-        Note: This is an unofficial project page. The official dataset can be found <a href="https://www.qualcomm.com/developer/software/airletters-dataset">here</a>. 
-    </h6>
     <h4 class="subtitle has-text-centered">
         <span class="dnerf">AirLetters</span> is a new video dataset consisting of real-world videos of human-generated, articulated motions.
     </h4>
