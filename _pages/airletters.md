@@ -12,7 +12,7 @@ affiliations:
     <sup>1</sup> Qualcomm AI Research <sup>*</sup>, <sup>2</sup> University of Toronto, <sup>3</sup> MIT<br>
     <sup>*</sup> Qualcomm AI Research is an initiative of Qualcomm Technologies, Inc.
 arxiv: https://arxiv.org/abs/2410.02921
-paper: /projects/airletters/paper.pdf
+paper: projects/airletters/paper.pdf
 code_coming: true
 data: https://www.qualcomm.com/developer/software/airletters-dataset
 leaderboard: https://huggingface.co/spaces/rishitdagli/airletters-leaderboard

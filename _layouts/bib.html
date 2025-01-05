@@ -144,7 +144,7 @@
           <!-- Links/Buttons -->
           <div class="links">
           {% if entry.projpage %}
-            <a href="{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-globe"></i> Project Webpage</a>
+            <a href="{{ site.baseurl }}{{ entry.projpage }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-globe"></i> Project Webpage</a>
           {% endif %}
           {%- if entry.abstract %}
             <a href="{{ entry.abstract }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-scroll"></i> Abs</a>
@@ -160,14 +160,14 @@
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> PDF</a>
+            <a href="{{ site.baseurl }}{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> PDF</a>
             {%- else -%}
             <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> PDF</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
-            <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
+            <a href="{{ site.baseurl }}{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- else -%}
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> Supp</a>
             {%- endif %}
@@ -179,18 +179,14 @@
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button"><i class="fab fa-github"></i> Code</a>
           {%- endif %}
           {%- if entry.poster %}
-            <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-image"></i> Poster</a>
+            <a href="{{ site.baseurl }}{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-image"></i> Poster</a>
           {%- endif %}
           {%- if entry.slides %}
-            {% if entry.slides contains '://' -%}
-            <a href="{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button">Slides</a>
-            {%- else -%}
-            <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file-powerpoint"></i> Slides</a>
-            {%- endif %}
+            <a href="{{site.baseurl}}{{ entry.slides }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file-powerpoint"></i> Slides</a>
           {%- endif %}
-          {%- if entry.website %}
+          <!-- {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
-          {%- endif %}
+          {%- endif %} -->
           {%- if entry.leaderboard %}
             <a href="{{ entry.leaderboard }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-trophy"></i> Leaderboard</a>
           {%- endif %}
@@ -229,12 +225,12 @@
           </div>
           {%- endif %}
 
-          {% if entry.abstract -%}
+          <!-- {% if entry.abstract -%} -->
           <!-- Hidden abstract block -->
-          <div class="abstract hidden">
+          <!-- <div class="abstract hidden">
             <p>{{ entry.abstract }}</p>
           </div>
-          {%- endif -%}
+          {%- endif -%} -->
 
           {% if entry.bibtex_show -%}
           <!-- Hidden bibtex block -->
