@@ -159,9 +159,7 @@
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-share-square"></i> HTML</a>
           {%- endif %}
           {%- if entry.pdf %}
-            {% if entry.pdf contains '://' -%}
             <a href="{{ site.baseurl }}{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-file"></i> PDF</a>
-            {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
             {% if entry.supp contains '://' -%}
