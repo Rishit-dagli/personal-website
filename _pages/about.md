@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: CS, Math, Stats Undergrad at <a href="https://web.cs.toronto.edu/">UofT</a>, DGP Lab, Vector Institute
+subtitle: CS, Math Undergrad at <a href="https://web.cs.toronto.edu/">UofT</a>, DGP Lab, Vector Institute
 
 profile:
   align: right
