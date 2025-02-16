@@ -446,7 +446,3 @@ The following works were mentioned on this page:<br><br>
     navigator.clipboard.writeText(citationCode);
   }
 </script>
-
-<h2 id="acknowledgements">Acknowledgements</h2>
-
-This research was enabled in part by support provided by the <a href="https://alliancecan.ca/">Digital Research Alliance of Canada</a>. This research was supported in part with Cloud TPUs from <a href="https://sites.research.google/trc/about/">Google's TPU Research Cloud (TRC)</a>. The resources used to prepare this research were provided, in part, by the Province of Ontario, the Government of Canada through CIFAR, and companies sponsoring the <a href="https://vectorinstitute.ai/partnerships/current-partners/">Vector Institute</a>.
