@@ -18,7 +18,8 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I write a [blog](https://rishit-dagli.github.io/). -->
 
-I am mainly interested in learning algorithms, computer vision (visual generation, vision-language models, and neural rendering), learning theory, and math. I have also represented my country in international contests. Feel free to talk with me about anything CS, Math, Robotics, or Physics.
+I am very interested in working on learning algorithms, computer vision (visual generation, vision-language models, and neural rendering), learning theory, and math (number theory and topology).
+<!-- I have also represented my country in international contests. Feel free to talk with me about anything CS, Math, Robotics, or Physics. -->
 
 I am currently on a break from my undergrad and I am working at [NVIDIA](https://www.nvidia.com/en-us/research/) on AI research.
 I have had the pleasure of working with many awesome people at the University of Toronto. After I switched boats to research I have worked in industry at [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research) with [Roland Memisevic](https://www.iro.umontreal.ca/~memisevr/) and [Guillaume Berger](https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en) and at [Civo](https://www.civo.com/) with [Josh Mesout](https://uk.linkedin.com/in/mesout).
