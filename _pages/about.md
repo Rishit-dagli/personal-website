@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I write a [blog](https://rishit-dagli.github.io/). -->
 
-I am very interested in working on learning algorithms, computer vision (visual generation, vision-language models, and neural rendering), learning theory, and math (number theory and topology).
+I am very interested in learning algorithms, computer vision (visual generation, vision-language models, and neural rendering), learning theory, and math (number theory and topology).
 <!-- I have also represented my country in international contests. Feel free to talk with me about anything CS, Math, Robotics, or Physics. -->
 
 I am currently on a break from my undergrad and I am working at [NVIDIA](https://www.nvidia.com/en-us/research/) on AI research.
