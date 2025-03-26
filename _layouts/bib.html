@@ -187,6 +187,9 @@
           {%- if entry.dataset %}
             <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-database"></i> Dataset</a>
           {%- endif %}
+          {%- if entry.cvpr_challenge %}
+            <a href="{{ entry.cvpr_challenge }}" class="btn btn-sm z-depth-0" role="button"><i class="fas fa-trophy"></i> CVPR Challenge</a>
+          {%- endif %}
           </div>
           {% if site.badges %}
           <div class="badges">
