@@ -7,11 +7,11 @@ headtitle:
 title:
     Can Vision-Language Models Answer Face to Face Questions in the Real-World?
 authors:
-    <a href="/">Reza Pourreza</a><sup>*1</sup>, <a href="/">Rishit Dagli</a><sup>*†2</sup>, <a href="https://apratimbhattacharyya18.github.io/">Apratim Bhattacharyya</a><sup>1</sup>, <a href="https://sunnypanchal.ca/">Sunny Panchal</a><sup>1</sup>, <a href="https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en">Guillaume Berger</a><sup>1</sup>, <a href="http://www.iro.umontreal.ca/~memisevr/">Roland Memisevic</a><sup>1</sup>
+    <a href="https://scholar.google.ca/citations?user=BqNYf-oAAAAJ&hl=en">Reza Pourreza</a><sup>*1</sup>, <a href="/">Rishit Dagli</a><sup>*†2</sup>, <a href="https://apratimbhattacharyya18.github.io/">Apratim Bhattacharyya</a><sup>1</sup>, <a href="https://sunnypanchal.ca/">Sunny Panchal</a><sup>1</sup>, <a href="https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en">Guillaume Berger</a><sup>1</sup>, <a href="http://www.iro.umontreal.ca/~memisevr/">Roland Memisevic</a><sup>1</sup>
 affiliations:
     <sup>1</sup> Qualcomm AI Research <sup>‡</sup>, <sup>2</sup> University of Toronto<br>
     <sup>*</sup> Equal Contribution. <sup>†</sup> Work completed during internship at Qualcomm AI Research.<br>
-    <sup>‡</sup> Qualcomm AI Research is an initiative of Qualcomm Technologies, Inc. <sup>‡</sup> CVPR 2025 competition version of Qualcomm IVD is available <a href="https://varworkshop.github.io/challenges/">here</a>. Additional labels will be released at a later date.
+    <sup>‡</sup> Qualcomm AI Research is an initiative of Qualcomm Technologies, Inc.<br><sup>‡</sup> CVPR 2025 competition version of Qualcomm IVD is available <a href="https://varworkshop.github.io/challenges/">here</a>. Additional labels will be released at a later date.
 arxiv: https://arxiv.org/abs/2503.19356
 paper: projects/qivd/paper.pdf
 code_coming: true
@@ -322,18 +322,18 @@ can significantly reduce this gap.
 
   <h2 id="citation">Experiment Results</h2>
 
-  <span class="dnerf">QIVD</span> does not require any domainspecific knowledge or complex reasoning skills. Yet we show that the task is still highly challenging for LMMs. Particularly, models fall far behind human performance on sitiated understanding..
+  <span class="dnerf">QIVD</span> does not require any domainspecific knowledge or complex reasoning skills. Yet we show that the task is still highly challenging for LMMs. Particularly, models fall far behind human performance on sitiated understanding.<br><br>
 
-  All of the models have been tested in:
+  All of the models have been tested in:<br><br>
 
-  1. streaming setup: models must decide if the question has been asked and if there is enough information to answer the question. If so the models must answer the question.
-  2. offline setup: models must answer the question based on the entire video and the question.
+  1. streaming setup: models must decide if the question has been asked and if there is enough information to answer the question. If so the models must answer the question. More details in the paper.<br>
+  2. offline setup: models must answer the question based on the entire video and the question.<br><br>
   
   We experimented with both open-source and closed-source multimodal-models, finetuned models on the benchmark, and allowed models to process audio. We evaluate the performance of all the models in a zero-shot setting and conduct prompt engineering if models do not provide any prompts for such tasks.
 
   <h3>Leaderboard</h3>
 
-  Streaming Setup:
+  <h4>Streaming Setup</h4>
 
   <div class="table-container">
     <table id="leaderboard-table" class="table is-striped is-hoverable is-fullwidth">
@@ -424,21 +424,21 @@ can significantly reduce this gap.
           <td>VideoLLaMA2-7B</td>
           <td>44.31</td>
           <td>91.18</td>
-          <td>47.20</td>
+          <td><b>47.20</b></td>
           <td><u>13.93</u></td>
           <td>40.63</td>
         </tr>
         <tr>
           <td>VideoLLaMA2-72B</td>
-          <td><u>47.69</u></td>
+          <td>47.69</td>
           <td><b>91.42</b></td>
-          <td><b>46.58</b></td>
+          <td>46.58</td>
           <td><b>14.03</b></td>
           <td><b>41.70</b></td>
         </tr>
         <tr>
           <td>VideoLLaMA3-7B</td>
-          <td>52.31</td>
+          <td><u>52.31</u></td>
           <td>90.92</td>
           <td>45.20</td>
           <td>11.21</td>
@@ -531,21 +531,21 @@ can significantly reduce this gap.
   </script>
 
   <style>
-    #leaderboard-table th {
+    #leaderboard-table th, #offline-leaderboard-table th {
       cursor: pointer;
       user-select: none;
     }
     
-    #leaderboard-table th:hover {
+    #leaderboard-table th:hover, #offline-leaderboard-table th:hover {
       background-color: rgba(0, 0, 0, 0.05);
     }
     
-    #leaderboard-table b {
+    #leaderboard-table b, #offline-leaderboard-table b {
       font-weight: bold;
       color: #209cee;
     }
     
-    #leaderboard-table u {
+    #leaderboard-table u, #offline-leaderboard-table u {
       text-decoration: underline;
       color: #3273dc;
     }
@@ -556,9 +556,17 @@ can significantly reduce this gap.
       padding: 1rem;
       margin-bottom: 1.5rem;
     }
+    
+    .table {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    
+    .table th, .table td {
+      border: 1px solid rgba(0, 0, 0, 0.1);
+    }
   </style>
 
-  Offline Setup:
+  <h4>Offline Setup</h4>
   
   <div class="table-container">
     <table id="offline-leaderboard-table" class="table is-striped is-hoverable is-fullwidth">
@@ -624,7 +632,7 @@ can significantly reduce this gap.
         <tr>
           <td>VideoChat2</td>
           <td>53.07</td>
-          <td><u>91.52</u></td>
+          <td>91.52</td>
           <td>47.93</td>
           <td>12.43</td>
           <td><u>43.87</u></td>
@@ -649,9 +657,9 @@ can significantly reduce this gap.
           <td>VideoLLaMA2-7B</td>
           <td>52.69</td>
           <td><u>91.71</u></td>
-          <td>51.08</td>
+          <td><u>51.08</u></td>
           <td><b>16.41</b></td>
-          <td>43.97</td>
+          <td>43.84</td>
         </tr>
         <tr>
           <td>VideoLLaMA2-72B</td>
@@ -772,6 +780,8 @@ can significantly reduce this gap.
   </script>
 
   <h3>Error Analysis</h3>
+
+  Analysis of model errors reveals that vision-language models struggle most with temporal understanding, fine-grained visual details, and spatial relationships within scenes. The performance gap between the best AI models (66.38% for GPT-4o) and humans (89.00%) highlights significant room for improvement in situated understanding. Common failure modes include hallucinating non-existent objects, focusing on irrelevant visual details, and failing to track objects across video frames. Models consistently perform worse in streaming setups compared to offline evaluation, indicating challenges in real-time decision-making. These findings suggest that while vision-language models have made impressive progress, significant challenges remain in achieving human-like performance in real-world interactions.
 
   <img src="../assets/img/qivd/eval.png" alt="QIVD Leaderboard" style="width: 100%; height: auto;">
   <img src="../assets/img/qivd/radar.png" alt="QIVD Leaderboard" style="width: 50%; height: auto;">
