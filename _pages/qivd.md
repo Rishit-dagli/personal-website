@@ -371,8 +371,8 @@ can significantly reduce this gap.
 
   We use a situated question-answering setup, where we have a streaming video, and the model must decide if the question has been asked and if there is enough information to answer the question. If so the models must answer the question. Particularly, answering the questions do not require any domain expertise.
   
-  <img src="../assets/img/qivd/diversity.png" alt="QIVD Setup" style="width: 100%; height: auto;">
-
+  <video src="../assets/img/qivd/teaser.mp4" autoplay loop muted playsinline></video>
+  <!-- <img src="../assets/img/qivd/diversity.png" alt="QIVD Setup" style="width: 100%; height: auto;"> -->
 
   <h2 id="citation">Experiment Results</h2>
 
