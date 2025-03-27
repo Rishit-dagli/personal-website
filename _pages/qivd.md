@@ -108,9 +108,10 @@ body::before {
 .author-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin: 1rem 0;
+  justify-content: space-around;
+  gap: 1.5%;
+  margin: 1.5rem auto;
+  max-width: 100%;
 }
 
 .author-item {
@@ -118,7 +119,9 @@ body::before {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 120px;
+  width: 15%;
+  min-width: 100px;
+  margin-bottom: 1rem;
 }
 
 .author-img {
