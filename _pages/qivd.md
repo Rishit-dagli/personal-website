@@ -7,7 +7,32 @@ headtitle:
 title:
     Can Vision-Language Models Answer Face to Face Questions in the Real-World?
 authors:
-    <a href="https://scholar.google.ca/citations?user=BqNYf-oAAAAJ&hl=en">Reza Pourreza</a><sup>*1</sup>, <a href="/">Rishit Dagli</a><sup>*†2</sup>, <a href="https://apratimbhattacharyya18.github.io/">Apratim Bhattacharyya</a><sup>1</sup>, <a href="https://sunnypanchal.ca/">Sunny Panchal</a><sup>1</sup>, <a href="https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en">Guillaume Berger</a><sup>1</sup>, <a href="http://www.iro.umontreal.ca/~memisevr/">Roland Memisevic</a><sup>1</sup>
+    <div class="author-list">
+      <div class="author-item">
+        <img src="../assets/img/qivd/reza.jpg" class="author-img" alt="Reza Pourreza">
+        <a href="https://scholar.google.ca/citations?user=BqNYf-oAAAAJ&hl=en">Reza Pourreza</a><sup>*1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/rishit.jpg" class="author-img" alt="Rishit Dagli">
+        <a href="/">Rishit Dagli</a><sup>*†2</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/apratim.jpg" class="author-img" alt="Apratim Bhattacharyya">
+        <a href="https://apratimbhattacharyya18.github.io/">Apratim Bhattacharyya</a><sup>1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/sunny.jpg" class="author-img" alt="Sunny Panchal">
+        <a href="https://sunnypanchal.ca/">Sunny Panchal</a><sup>1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/ghibli.jpg" class="author-img" alt="Guillaume Berger">
+        <a href="https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en">Guillaume Berger</a><sup>1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/roland.jpg" class="author-img" alt="Roland Memisevic">
+        <a href="http://www.iro.umontreal.ca/~memisevr/">Roland Memisevic</a><sup>1</sup>
+      </div>
+    </div>
 affiliations:
     <sup>1</sup> Qualcomm AI Research <sup>‡</sup>, <sup>2</sup> University of Toronto<br>
     <sup>*</sup> Equal Contribution. <sup>†</sup> Work completed during internship at Qualcomm AI Research.<br>
@@ -77,6 +102,32 @@ body::before {
   height: auto;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+/* Author list styling */
+.author-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 1rem 0;
+}
+
+.author-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 120px;
+}
+
+.author-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 8px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .easter-egg {
