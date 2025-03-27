@@ -788,6 +788,8 @@ can significantly reduce this gap.
 
   <h3>Qualitative Results</h3>
 
+  We showcase some qualitative results from various models on the QIVD benchmark. The examples illustrate common error types including object hallucination, misinterpreting spatial relationships, ignoring temporal context, and producing inconsistent answers in complex environments. These qualitative samples complement the quantitative metrics by providing insight into specific model limitations in real-world scenarios.
+
   <img src="../assets/img/qivd/failure.png" alt="QIVD Qualitative Results" style="width: 100%; height: auto;">
 
   <h2 id="citation">Citation</h2>
