@@ -40,6 +40,17 @@
   <script src="../assets/js/nerfies_index.js"></script>
   <script src="../assets/js/nerfies_comparision.js"></script>
 
+  {% if page.permalink == "/qivd/" %}
+  <!-- Import ITC Avant Garde Gothic font for QIVD page -->
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book">
+  <style>
+    .publication-title, .publication-authors, .author-block {
+      font-family: 'ITC Avant Garde Gothic Std', 'Avant Garde', sans-serif !important;
+      font-weight: 500 !important;
+    }
+  </style>
+  {% endif %}
+
   <script>
     function toggleCodeBlock() {
       var codeBlock = document.getElementById("bashCodeBlock");
@@ -114,6 +125,39 @@
             <div class="navbar-dropdown">
               <a class="navbar-item" href="https://see2sound.github.io">
                 SEE-2-SOUND
+              </a>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </nav>
+  {% endif %}
+  {% if page.permalink == "/qivd/" %}
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+          <a class="navbar-item" href="../">
+          <span class="icon">
+              <i class="fas fa-home"></i>
+          </span>
+          </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              More Research
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/airletters">
+                Airletters
+              </a>
+              <a class="navbar-item" href="https://arxiv.org/abs/2407.08101v1">
+                QEVD
               </a>
             </div>
           </div>
@@ -234,6 +278,16 @@
                     {% else %}
                     <span>Data</span>
                     {% endif %}
+                  </a>
+                </span>
+                {% endif %}
+                {% if page.data_coming %}
+                <span class="link-block">
+                  <a href="{{ page.data }}" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Data (coming soon)</span>
                   </a>
                 </span>
                 {% endif %}
