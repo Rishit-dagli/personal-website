@@ -10,11 +10,11 @@ authors:
     <div class="author-list">
       <div class="author-item">
         <img src="../assets/img/qivd/reza.jpg" class="author-img" alt="Reza Pourreza">
-        <a href="https://scholar.google.ca/citations?user=BqNYf-oAAAAJ&hl=en">Reza Pourreza</a><sup>*1</sup>
+        <a href="https://scholar.google.ca/citations?user=BqNYf-oAAAAJ&hl=en">Reza<br>Pourreza</a><sup>*1</sup>
       </div>
       <div class="author-item">
         <img src="../assets/img/qivd/rishit.jpg" class="author-img" alt="Rishit Dagli">
-        <a href="/">Rishit Dagli</a><sup>*†2</sup>
+        <a href="/">Rishit<br>Dagli</a><sup>*†2</sup>
       </div>
       <div class="author-item">
         <img src="../assets/img/qivd/apratim.jpg" class="author-img" alt="Apratim Bhattacharyya">
