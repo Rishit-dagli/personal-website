@@ -1,17 +1,42 @@
 ---
 layout: nerfies_project_page
-permalink: /qivd/
+permalink: /qivd_o/
 
 headtitle:
     QIVD
 title:
     Can Vision-Language Models Answer Face to Face Questions in the Real-World?
 authors:
-    <a href="https://scholar.google.ca/citations?user=BqNYf-oAAAAJ&hl=en">Reza Pourreza</a><sup>*1</sup>, <a href="/">Rishit Dagli</a><sup>*†2</sup>, <a href="https://apratimbhattacharyya18.github.io/">Apratim Bhattacharyya</a><sup>1</sup>, <a href="https://sunnypanchal.ca/">Sunny Panchal</a><sup>1</sup>, <a href="https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en">Guillaume Berger</a><sup>1</sup>, <a href="http://www.iro.umontreal.ca/~memisevr/">Roland Memisevic</a><sup>1</sup>
+    <div class="author-list">
+      <div class="author-item">
+        <img src="../assets/img/qivd/reza.jpg" class="author-img" alt="Reza Pourreza">
+        <a href="https://scholar.google.ca/citations?user=BqNYf-oAAAAJ&hl=en">Reza<br>Pourreza</a><sup>*1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/rishit.jpg" class="author-img" alt="Rishit Dagli">
+        <a href="/">Rishit<br>Dagli</a><sup>*†2</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/apratim.jpg" class="author-img" alt="Apratim Bhattacharyya">
+        <a href="https://apratimbhattacharyya18.github.io/">Apratim Bhattacharyya</a><sup>1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/sunny.jpg" class="author-img" alt="Sunny Panchal">
+        <a href="https://sunnypanchal.ca/">Sunny Panchal</a><sup>1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/ghibli.jpg" class="author-img" alt="Guillaume Berger">
+        <a href="https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en">Guillaume Berger</a><sup>1</sup>
+      </div>
+      <div class="author-item">
+        <img src="../assets/img/qivd/roland.jpg" class="author-img" alt="Roland Memisevic">
+        <a href="http://www.iro.umontreal.ca/~memisevr/">Roland Memisevic</a><sup>1</sup>
+      </div>
+    </div>
 affiliations:
     <sup>1</sup> Qualcomm AI Research <sup>‡</sup>, <sup>2</sup> University of Toronto<br>
     <sup>*</sup> Equal Contribution. <sup>†</sup> Work completed during internship at Qualcomm AI Research.<br>
-    # <sup>‡</sup> Qualcomm AI Research is an initiative of Qualcomm Technologies, Inc.<br><sup>‡</sup> CVPR 2025 competition version of Qualcomm IVD is available <a href="https://varworkshop.github.io/challenges/">here</a>. Additional labels will be released at a later date.
+    <sup>‡</sup> Qualcomm AI Research is an initiative of Qualcomm Technologies, Inc.<br><sup>‡</sup> CVPR 2025 competition version of Qualcomm IVD is available <a href="https://varworkshop.github.io/challenges/">here</a>. Additional labels will be released at a later date.
 arxiv: https://arxiv.org/abs/2503.19356
 paper: projects/qivd/paper.pdf
 code_coming: true
