@@ -367,6 +367,10 @@ can significantly reduce this gap.
 
   We present <span class="dnerf">QIVD</span>, a novel benchmark created to assess the non-expert multimodal situated understanding capability of foundation models. Our benchmark for each instance includes a video (with audio) of a user asking a question about the video, the transcribed question, the ground truth answer, and a ground-truth timestamp at which the question should be answered.<br><br>
 
+  We show an example from our dataset with the outputs in the situated setup.
+
+  <video src="../assets/img/qivd/explain_liveqa.mp4" autoplay loop playsinline></video>
+
   All the videos in the benchamrk have been crowdsourced and then annotated by non-expert annotators. Following this the videos go through a rigororus quality check process and semantic categorization process. <br><br>
 
   We use a situated question-answering setup, where we have a streaming video, and the model must decide if the question has been asked and if there is enough information to answer the question. If so the models must answer the question. Particularly, answering the questions do not require any domain expertise.
