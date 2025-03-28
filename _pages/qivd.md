@@ -344,7 +344,7 @@ can significantly reduce this gap.
 
   We show an example from our dataset with the outputs in the situated setup.
 
-  <video src="../assets/img/qivd/explain_liveqa.mp4" autoplay loop playsinline></video>
+  <video src="../assets/img/qivd/explain_liveqa.mp4" controls autoplay loop playsinline></video>
 
   All the videos in the benchamrk have been crowdsourced and then annotated by non-expert annotators. Following this the videos go through a rigororus quality check process and semantic categorization process. <br><br>
 
