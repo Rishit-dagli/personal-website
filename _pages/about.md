@@ -18,16 +18,15 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I write a [blog](https://rishit-dagli.github.io/). -->
 
-I am very interested in learning algorithms, computer vision (visual generation, vision-language models, and neural rendering), learning theory, and math (number theory and topology).
+I am very interested in learning algorithms, computer vision, graphics, learning theory, and math (number theory and topology).
 <!-- I have also represented my country in international contests. Feel free to talk with me about anything CS, Math, Robotics, or Physics. -->
 
-I am currently on a break from my undergrad and I am working at [NVIDIA](https://www.nvidia.com/en-us/research/) on AI research.
-I have had the pleasure of working with many awesome people at the University of Toronto. After I switched boats to research I have worked in industry at [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research) with [Roland Memisevic](https://www.iro.umontreal.ca/~memisevr/) and [Guillaume Berger](https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en) and at [Civo](https://www.civo.com/) with [Josh Mesout](https://uk.linkedin.com/in/mesout).
+I am currently on a break from my undergrad and I am working at [NVIDIA](https://www.nvidia.com/en-us/research/) on the intersection of AI, vision, and graphics research. I have had the pleasure of working with many awesome people at the University of Toronto. After I switched boats to research I have worked in industry at [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research) with [Roland Memisevic](https://www.iro.umontreal.ca/~memisevr/) and [Guillaume Berger](https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en) and at [Civo](https://www.civo.com/) with [Josh Mesout](https://uk.linkedin.com/in/mesout).
 
 <!-- At **UofT**, I have been lucky to be supervised by these professors who I admire: [Nandita Vijaykumar](https://www.cs.toronto.edu/~nandita/), [Rahul G. Krishnan](https://www.cs.toronto.edu/~rahulgk/), [Pascal Tyrrell](https://www.tyrrell4innovation.ca/), [David Lindell](https://davidlindell.com/), and [Houman Khosravani](https://scholar.google.ca/citations?user=qzhk98YAAAAJ&hl=en). In **industry** after I switched boats to research, I have been lucky to be supervised by these people who I admire: [Roland Memisevic](https://www.iro.umontreal.ca/~memisevr/) and [Guillaume Berger](https://scholar.google.ca/citations?user=OY4_O9UAAAAJ&hl=en) from my time at [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), [Josh Mesout](https://uk.linkedin.com/in/mesout) from my time at [Civo](https://www.civo.com/). -->
 <!-- In **high school**, I have been lucky to be supervised by these people who I admire: [Ali Mustufa](https://in.linkedin.com/in/ialimustufa) and [Prof. Suleyman Eken](https://avesis.kocaeli.edu.tr/suleyman.eken). -->
 
-In a past life, I used to work on software engineering and robotics. I used to contribute extensively to/ maintain some popular open-source projects.
+In a past life, I used to work on software engineering and robotics. I used to contribute extensively to/ maintain some popular open-source projects which can be found on my [github](https://github.com/rishit-dagli) and [software](/software).
 
 <!-- like [TensorFlow](https://www.tensorflow.org/), [PyTorch Foundation](https://pytorch.org/), [Kubernetes](https://kubernetes.io/), [Kubeflow](https://www.kubeflow.org/), [PapersWithCode](https://paperswithcode.com/), [freeCodeCamp](https://www.freecodecamp.org/) among others. I still work on building a few open-source projects, some of which have been pretty popular. Seeing my work at a rather young age, I was invited to speak at 2 TEDx and 1 TED-Ed events. -->
 
