@@ -6,8 +6,6 @@ nav: true
 nav_order: 4
 ---
 
-## some awards
-
 - openjs Cross Project Council Community Fund award
 - linux foundation Dan Kohn scholarship and multiple conference travel awards
 - received the T-CAIREM award for students at the University of Toronto
