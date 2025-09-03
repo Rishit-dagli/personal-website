@@ -20,9 +20,3 @@ nav_order: 4
 - top 20 in India for World Robotics Olympiad
 - received scholarship from Narayana Junior College - High School
 - received scholarship from Allen - High School
-
-## technical reports
-
-<div class="publications">
-  {% bibliography -f papers -q @*[report=true] %}
-</div>

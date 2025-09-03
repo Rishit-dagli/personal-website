@@ -23,3 +23,9 @@ nav: true
 {% endfor %}
 
 </div>
+
+## technical reports/mini-projects
+
+<div class="publications">
+  {% bibliography -f papers -q @*[report=true] %}
+</div>
